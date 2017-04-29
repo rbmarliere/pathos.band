@@ -28,7 +28,7 @@
         }
     },
     "scripts": {
-        "post-create-project-cmd": [
+        "key-gen": [
             "php artisan key:generate"
         ],
         "post-install-cmd": [

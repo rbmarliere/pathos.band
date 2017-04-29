@@ -24,7 +24,8 @@ $git --git-dir=$wd/.git --work-tree=$wd pull -q origin
 echo "Installing composer dependencies (host=$host)..."
 $composer -q --working-dir=$wd install
 
-echo "Running artisan-clear..."
+echo "Running composer scripts..."
+$composer -q --working-dir=$wd run-script key-gen
 $composer -q --working-dir=$wd run-script artisan-clear
 
 echo "Done!"
