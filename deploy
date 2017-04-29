@@ -1,0 +1,30 @@
+#!/bin/bash
+
+wd=${wd:-/var/www/localhost/pathos}
+git=${git:-/usr/bin/git}
+composer=${composer:-/usr/bin/composer}
+host=${host:-local}
+
+echo "Preparing working directory (wd=$wd)..."
+cp $wd/.env.$host $wd/.env
+mkdir -p $wd/storage/{logs,tmp}
+if [ "$(find $wd/storage/ -type f -print0 | xargs -0 stat -c %a | sort | uniq | wc -l)" -gt 1 ] \
+|| [ "$(stat -c %a $wd/storage)" != "777" ]; then
+	sudo chmod -R 777 $wd/storage
+fi
+if [ $(find $wd/bootstrap/cache -type f | wc -l) -gt 1 ]; then
+	rm $wd/bootstrap/cache/*
+fi
+
+echo "Handling git repository..."
+$git --git-dir=$wd/.git --work-tree=$wd fetch -q origin
+$git --git-dir=$wd/.git --work-tree=$wd checkout -q master
+$git --git-dir=$wd/.git --work-tree=$wd pull -q origin
+
+echo "Installing composer dependencies (host=$host)..."
+$composer -q --working-dir=$wd install
+
+echo "Running artisan-clear..."
+$composer -q --working-dir=$wd run-script artisan-clear
+
+echo "Done!"
