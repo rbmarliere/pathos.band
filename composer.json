@@ -28,9 +28,6 @@
         }
     },
     "scripts": {
-        "post-root-package-install": [
-            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
         "post-create-project-cmd": [
             "php artisan key:generate"
         ],
@@ -41,6 +38,15 @@
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
+        ],
+        "artisan-clear": [
+            "php artisan -q clear-compiled",
+            "php artisan -q optimize",
+            "php artisan -q cache:clear",
+            "php artisan -q view:clear",
+            "php artisan -q config:clear",
+            "php artisan -q queue:restart",
+            "php artisan -q route:clear"
         ]
     },
     "config": {
