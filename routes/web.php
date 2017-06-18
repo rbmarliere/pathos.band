@@ -13,8 +13,20 @@
 
 Auth::routes();
 
-# Route::get('/login', 'HomeController@index')->name('home');
+Route::get('/login', 'HomeController@index')->name('home');
 
 Route::get('/', function () {
     return view('index');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/discography', function () {
+    return view('discography');
+});
+Route::get('/media', function () {
+    return view('media');
+});
+Route::get('/press', function () {
+    return view('press');
 });
