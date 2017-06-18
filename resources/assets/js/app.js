@@ -16,6 +16,7 @@ window.Vue = require('vue');
  */
 
 //Vue.component('example', require('./components/Example.vue'));
+Vue.component('parallax', require('vue-parallaxy'));
 
 const app = new Vue({
     el: '#app'
