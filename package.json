@@ -21,6 +21,7 @@
     "vue-parallaxy": "^1.0.3"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "vue-scrollto": "^2.6.9"
   }
 }
