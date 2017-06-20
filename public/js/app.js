@@ -44483,10 +44483,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('div', [_c('div', {
     staticClass: "container"
   }, [_c('div', {
-    staticClass: "row"
+    staticClass: "row",
+    staticStyle: {
+      "display": "table",
+      "height": "100%"
+    }
   }, _vm._l((_vm.images), function(image, index) {
     return _c('div', {
-      staticClass: "col-xs-2"
+      staticClass: "col-xs-2",
+      staticStyle: {
+        "display": "table-cell",
+        "vertical-align": "middle",
+        "float": "none"
+      }
     }, [_c('img', {
       directives: [{
         name: "lazy",

@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="container">
-            <div class="row">
-                    <div v-for="(image, index) in images" class="col-xs-2">
-                          <img class="img-thumbnail" v-lazy="image.src" @click="openGallery(index)">
-                    </div>
+            <div class="row" style="display: table; height: 100%;">
+                <div v-for="(image, index) in images" class="col-xs-2" style="display: table-cell; vertical-align: middle; float: none;">
+                      <img class="img-thumbnail" v-lazy="image.src" @click="openGallery(index)">
+                </div>
             </div>
         </div>
         <lightbox :images="images" ref="lightbox" :show-light-box="false" :show-caption="true"></lightbox>
