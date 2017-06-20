@@ -101,19 +101,19 @@ http://stonerking1.blogspot.com.br/2015/08/pathos-elixir-brazil-prog-stoners-deb
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center pagination-centered">
-                    <a target="_tab" href="https://pathos-sound.bandcamp.com/">
+                    <a style="color: #343434;" target="_tab" href="https://pathos-sound.bandcamp.com/">
                         <icon name="bandcamp" scale="4"></icon>
                     </a>
                     &nbsp; &nbsp;
-                    <a target="_tab" href="https://www.facebook.com/pathos.sound/">
+                    <a style="color: #343434;" target="_tab" href="https://www.facebook.com/pathos.sound/">
                         <icon name="facebook" scale="4"></icon>
                     </a>
                     &nbsp; &nbsp;
-                    <a target="_tab" href="https://www.instagram.com/pathos.sound/">
+                    <a style="color: #343434;" target="_tab" href="https://www.instagram.com/pathos.sound/">
                         <icon name="instagram" scale="4"></icon>
                     </a>
                     &nbsp; &nbsp;
-                    <a target="_tab" href="https://www.youtube.com/channel/UCT6Sk9JezXTip94txp0aSfQ">
+                    <a style="color: #343434;" target="_tab" href="https://www.youtube.com/channel/UCT6Sk9JezXTip94txp0aSfQ">
                         <icon name="youtube" scale="4"></icon>
                     </a>
                 </div>
