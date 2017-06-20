@@ -88,6 +88,9 @@ http://www.tribunademinas.com.br/pedrada-sonora/
 http://oganpazan.com.br/elixir-2015-pathos/
 http://doomedandstoned.com/post/126164534683/papapaulsgroovyreviews
 http://stonerking1.blogspot.com.br/2015/08/pathos-elixir-brazil-prog-stoners-debut.html
+
+        <photos></photos>
+
         </div>
 
         <hr/>
