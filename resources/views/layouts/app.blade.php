@@ -56,7 +56,7 @@
         </nav>
 
         <div id="main">
-            <parallax :speed-factor=0.30>
+            <parallax :speed-factor=0.20 :section-height=55>
                 <img src="img/pathos.jpg"/>
             </parallax>
         </div>
@@ -100,28 +100,23 @@ http://stonerking1.blogspot.com.br/2015/08/pathos-elixir-brazil-prog-stoners-deb
 
         <div class="container">
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-2 text-center pagination-centered">
+                <div class="col-xs-12 text-center pagination-centered">
                     <a target="_tab" href="https://pathos-sound.bandcamp.com/">
                         <icon name="bandcamp" scale="4"></icon>
                     </a>
-                </div>
-                <div class="col-md-2 text-center pagination-centered">
+                    &nbsp; &nbsp;
                     <a target="_tab" href="https://www.facebook.com/pathos.sound/">
                         <icon name="facebook" scale="4"></icon>
                     </a>
-                </div>
-                <div class="col-md-2 text-center pagination-centered">
+                    &nbsp; &nbsp;
                     <a target="_tab" href="https://www.instagram.com/pathos.sound/">
                         <icon name="instagram" scale="4"></icon>
                     </a>
-                </div>
-                <div class="col-md-2 text-center pagination-centered">
+                    &nbsp; &nbsp;
                     <a target="_tab" href="https://www.youtube.com/channel/UCT6Sk9JezXTip94txp0aSfQ">
                         <icon name="youtube" scale="4"></icon>
                     </a>
                 </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
 
