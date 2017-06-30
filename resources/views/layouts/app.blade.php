@@ -59,8 +59,9 @@
             <parallax :speed-factor=0.20 :section-height=55>
                 <img src="img/pathos.jpg"/>
             </parallax>
-            <hr/>
         </div>
+
+        <hr/>
 
         <div id="about" class="container">
             <p>A Pathos é uma banda de stoner rock progressivo, de Juiz de Fora, Minas Gerais. Formada no início de 2014 por Hugo Moutinho (bateria), JP Vieira (voz), Lucas Guida (baixo) e Ricardo Marliere (guitarra). No segundo semestre de 2014 a banda passou por um árduo processo de composição, gravando seu álbum de estreia nos dias 21 e 22 de fevereiro de 2015, nomeado "Elixir". O disco foi produzido pela banda e por Arthur Damásio de forma independente e lançado em agosto de 2015, obtendo boa aceitação no Brasil e no exterior, sendo lançado, posteriormente, em vinil pelo selo alemão Krauted Mind Records. Após mais de um ano em hiato, ao fim de 2016 a banda retornou aos palcos de Juiz de Fora para participar do Festival Cultural Sangue Novo (mais de 70 artistas inscritos, sendo 20 participantes), ficando em 2° lugar. No início de 2017, Luiz Henrique Andrès (teclado) se integrou à banda.</p>
@@ -80,7 +81,7 @@
             <hr/>
             <div class="row">
                 <div class="col-xs-6 text-center pagination-centered">
-<iframe style="border: 0; width: 100%; height: 373px;" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://pathos-sound.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
+                    <iframe style="border: 0; width: 100%; height: 373px;" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://pathos-sound.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
                 </div>
                 <div class="col-xs-6 text-right pagination-centered">
                     <p style="font-family: quote; font-size: 15px; letter-spacing: .5px;">
@@ -108,11 +109,8 @@
             <hr/>
         </div>
 
-        <hr/>
-
         <div id="media" class="container">
             <photos></photos>
-            <hr/>
         </div>
 
         <hr/>
