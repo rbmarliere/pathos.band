@@ -11,6 +11,7 @@
     <title>{{ config('app.name', 'Pathos') }}</title>
 
     <!-- Styles -->
+    <link rel="favicon" href="{{ asset('img/favicon.ico') }}">
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <style>a{color: #343434;}</style>
 
