@@ -1,16 +1,17 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import
 {
     Collapse,
-    Container,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
     Nav,
-    NavItem,
     Navbar,
+    NavbarBrand,
     NavbarToggler,
-    Row
+    NavLink,
+    UncontrolledDropdown
 } from "reactstrap";
-import logo from "../assets/img/logo.svg";
 
 class NavBar extends Component
 {
@@ -31,23 +32,29 @@ class NavBar extends Component
         return (
             <div>
                 <Navbar color="light" expand="md" light>
-                    <Link className="navbar-brand" to="/">
-                        <Container>
-                            <Row className="d-flex align-items-center">
-                                <div className="logo">
-                                    <img src={logo} alt="Pathos"/>
-                                </div>
-                                    &nbsp;
-                                    Pathos
-                            </Row>
-                        </Container>
-                    </Link>
+                    <NavbarBrand href="/">
+                        Pathos
+                    </NavbarBrand>
                     <NavbarToggler onClick={ this.toggle } />
                     <Collapse isOpen={ this.state.isOpen } navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                Hi
-                            </NavItem>
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    Discography
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                    <DropdownItem>
+                                        <NavLink href="/elixir">
+                                            Elixir
+                                        </NavLink>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <NavLink href="/rapture">
+                                            RAPTURE!
+                                        </NavLink>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
                         </Nav>
                     </Collapse>
                 </Navbar>
