@@ -8,7 +8,7 @@ import { Router, Route } from "react-router-dom";
 import Home from "./views/Home";
 
 // style
-import "./index.css";
+import "./assets/css/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // google analytics

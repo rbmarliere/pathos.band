@@ -10,7 +10,7 @@ import
     NavbarToggler,
     Row
 } from "reactstrap";
-import logo from "../assets/logo.svg";
+import logo from "../assets/img/logo.svg";
 
 class NavBar extends Component
 {
