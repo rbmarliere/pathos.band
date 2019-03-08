@@ -2,9 +2,14 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+import { Router, Route } from "react-router-dom";
+
+// views
+import Home from "./views/Home";
+
+// style
 import "./index.css";
-import App from "./views/App";
-import { BrowserRouter, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // google analytics
 import ReactGA from "react-ga";
@@ -17,12 +22,13 @@ history.listen( (location) => {
     ReactGA.pageview( location.pathname );
 });
 
+// render
 ReactDOM.render(
-    <BrowserRouter history={ history }>
+    <Router history={ history }>
         <div>
-            <Route path="/" component={App} exact />
+            <Route path="/" component={Home} exact />
         </div>
-    </BrowserRouter>,
+    </Router>,
     document.getElementById("root")
 );
 
