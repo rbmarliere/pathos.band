@@ -2,16 +2,14 @@ import React, { Component } from "react";
 import
 {
     Collapse,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
     Nav,
     Navbar,
     NavbarBrand,
     NavbarToggler,
-    NavLink,
-    UncontrolledDropdown
+    NavItem,
+    NavLink
 } from "reactstrap";
+import "../assets/css/NavBar.css";
 
 class NavBar extends Component
 {
@@ -31,30 +29,19 @@ class NavBar extends Component
     {
         return (
             <div>
-                <Navbar color="light" expand="md" light>
+                <Navbar color="light" expand="md" light className={ this.props.scroll > this.props.navtop ? "fixed-nav" : "" }>
                     <NavbarBrand href="/">
                         Pathos
                     </NavbarBrand>
                     <NavbarToggler onClick={ this.toggle } />
                     <Collapse isOpen={ this.state.isOpen } navbar>
                         <Nav className="ml-auto" navbar>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
-                                    Discography
-                                </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                        <NavLink href="/elixir">
-                                            Elixir
-                                        </NavLink>
-                                    </DropdownItem>
-                                    <DropdownItem>
-                                        <NavLink href="/rapture">
-                                            RAPTURE!
-                                        </NavLink>
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+                            <NavItem>
+                                <NavLink href="/rapture"> Rapture!  </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/elixir"> Elixir </NavLink>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
