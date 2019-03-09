@@ -7,6 +7,23 @@ import { Router, Route } from "react-router-dom";
 // views
 import Home from "./views/Home";
 
+// fa
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+    faBandcamp,
+    faFacebook,
+    faInstagram,
+    faSpotify,
+    faTwitter,
+    faYoutube } from "@fortawesome/free-brands-svg-icons";
+library.add(
+    faBandcamp,
+    faFacebook,
+    faInstagram,
+    faSpotify,
+    faTwitter,
+    faYoutube );
+
 // style
 import "./assets/css/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
