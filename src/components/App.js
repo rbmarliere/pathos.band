@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import NavBar from "../components/NavBar";
-import Banner from "../components/Banner";
+import Banner from "./Banner";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 class App extends Component
 {
@@ -45,6 +46,7 @@ class App extends Component
                 <Banner onLoad={ this.handleBannerLoaded.bind(this) }/>
                 <NavBar scroll={ this.state.scroll } navtop={ this.state.navtop }/>
                 { this.props.children }
+                <Footer/>
             </div>
         );
     }
