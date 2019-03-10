@@ -28,10 +28,10 @@ class NavBar extends Component
     render()
     {
         return (
-            <div>
-                <Navbar color="light" expand="md" light className={ this.props.scroll > this.props.navtop ? "fixed-nav" : "" }>
-                    <NavbarBrand href="/">
-                        Pathos
+            <div className="NavBar">
+                <Navbar color="dark" dark expand="md" className={ this.props.scroll > this.props.navtop ? "NavBar-fixed" : "" }>
+                    <NavbarBrand href="/" className="NavBar-brand">
+                        PATHOS
                     </NavbarBrand>
                     <NavbarToggler onClick={ this.toggle } />
                     <Collapse isOpen={ this.state.isOpen } navbar>
