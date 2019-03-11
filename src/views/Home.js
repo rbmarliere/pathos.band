@@ -1,12 +1,13 @@
 import React from "react";
 import App from "../components/App";
+import Biography from "../components/Biography";
 
 const Home = () =>
 {
     return (
         <App>
             <div className="Home">
-                ahoi
+                <Biography/>
             </div>
         </App>
     );

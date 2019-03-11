@@ -10,6 +10,11 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.quote2 {
+    font-family: "Times New Roman", Georgia;
+    font-size: 1.4em;
+}
+
 .Content {
     text-align: justify;
 }
