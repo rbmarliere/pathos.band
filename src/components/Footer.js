@@ -10,8 +10,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () =>
 {
     return (
-        <div>
-            <footer className="Footer">
+        <div className="Footer">
+            <footer>
                 <Container className="container-fluid" expand="md">
                     <Row className="pt-3 pb-3">
                         <Col className="Footer-links" xs="12">
@@ -35,7 +35,7 @@ const Footer = () =>
                     </Row>
                 </Container>
             </footer>
-            <footer className="Footer">
+            <footer>
                 <Container className="container-fluid" expand="md">
                     <Row className="pt-3 pb-3">
                         <Col xs="12">

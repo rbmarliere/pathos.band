@@ -1,13 +1,14 @@
-.NavBar > nav {
+.NavBar > nav{
   width: 100%;
   margin: 0;
   top: 0;
-  background: #212121 !important;
+  background: #212121;
   color: #ccc;
 }
 
 .NavBar-fixed {
     position: fixed !important;
+    z-index: 1;
 }
 
 .NavBar-brand {

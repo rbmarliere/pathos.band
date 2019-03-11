@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import
 {
     Collapse,
@@ -49,6 +50,12 @@ class NavBar extends Component
         );
     }
 }
+
+NavBar.propTypes =
+{
+    scroll: PropTypes.number.isRequired,
+    navtop: PropTypes.number
+};
 
 export default NavBar;
 

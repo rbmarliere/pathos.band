@@ -16,9 +16,9 @@ class App extends Component
 
     handleBannerLoaded()
     {
-        const el = document.querySelector("nav");
-        this.setState({navtop: el.offsetTop, height: el.offsetHeight});
-        window.addEventListener("scroll", this.handleScroll);
+        const banner = document.querySelector(".Banner");
+        const nav = document.querySelector("nav");
+        this.setState({ navtop: banner.offsetHeight, height: nav.offsetHeight});
     }
 
     handleScroll()
@@ -28,7 +28,7 @@ class App extends Component
 
     componentDidMount()
     {
-        this.handleBannerLoaded();
+        window.addEventListener("scroll", this.handleScroll);
         window.addEventListener("resize", this.handleBannerLoaded);
     }
 
@@ -45,7 +45,9 @@ class App extends Component
             <div className="App">
                 <Banner onLoad={ this.handleBannerLoaded.bind(this) }/>
                 <NavBar scroll={ this.state.scroll } navtop={ this.state.navtop }/>
-                { this.props.children }
+                <div className="Content">
+                    { this.props.children }
+                </div>
                 <Footer/>
             </div>
         );
@@ -54,7 +56,7 @@ class App extends Component
 
 App.propTypes =
 {
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired
 };
 
 export default App;
