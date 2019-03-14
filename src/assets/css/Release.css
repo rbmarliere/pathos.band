@@ -12,6 +12,12 @@
 }
 
 .Release-player {
+    margin: auto;
+    display: block;
+    max-width: 700px;
+}
+
+.Release-bcplayer {
     border: 0;
     width: 100%;
     height: 42px;

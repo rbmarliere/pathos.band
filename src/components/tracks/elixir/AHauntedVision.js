@@ -14,7 +14,9 @@ const Portal = () =>
 
             &nbsp;
 
-            <iframe title="A Haunted Vision" className="Release-player" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1803528116/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
+            <div className="Release-player">
+                <iframe title="A Haunted Vision" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1803528116/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
+            </div>
 
             &nbsp;
 

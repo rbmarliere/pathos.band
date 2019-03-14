@@ -14,56 +14,57 @@ const Ankh = () =>
 
             &nbsp;
 
-            <iframe title="Ankh" className="Release-player" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3764892873/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
+            <div className="Release-player">
+                <iframe title="Ankh" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3764892873/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
+            </div>
 
             &nbsp;
 
             <Row>
                 <Col className="Release-left">
                     In this world I was born
-                    Spitted in fire
-                    Through my birth in death
-                    I have emerged
-                    and now I’m alive
-
-                    With my golden armor
-                    Smoky spear in my hand
-                    I’ll be going to war
-                    Towards your faith
-                    To rip your flesh from inside
-
-                    Take my blinding light
-                    Eat and drink it or leave
-                    Then gain my trembling strength
-                    Go on now and
-                    Try to do it again
-
-                    I have a hunger for fear
-                    Show me where does it hide
-                    I will strike with my sword
-                    Shining with blood
-                    Since there is no god where I am
-                    Where am I?
-
-                    In a moment in eternity I saw a tear
-                    Rolling down your face
-                    You seem so distant to me yet standing so near
-                    Oh, my dear
-                    I wish we could be one again
-                    I will hit you hard to see
-                    If you can take my heart along with you
-
-                    I am not allowed to die
-                    I always change, I will born again
-                    Infinite force I have within
-                    In flames so high I’m burning inside
-
-                    I will keep it up
-                    I will keep it low
-                    Try to keep on living
-                    There is no other way
-                    Keep on loving
-
+                    <br/>Spitted in fire
+                    <br/>Through my birth in death
+                    <br/>I have emerged
+                    <br/>and now I’m alive
+                    <br/>
+                    <br/>With my golden armor
+                    <br/>Smoky spear in my hand
+                    <br/>I’ll be going to war
+                    <br/>Towards your faith
+                    <br/>To rip your flesh from inside
+                    <br/>
+                    <br/>Take my blinding light
+                    <br/>Eat and drink it or leave
+                    <br/>Then gain my trembling strength
+                    <br/>Go on now and
+                    <br/>Try to do it again
+                    <br/>
+                    <br/>I have a hunger for fear
+                    <br/>Show me where does it hide
+                    <br/>I will strike with my sword
+                    <br/>Shining with blood
+                    <br/>Since there is no god where I am
+                    <br/>Where am I?
+                    <br/>
+                    <br/>In a moment in eternity I saw a tear
+                    <br/>Rolling down your face
+                    <br/>You seem so distant to me yet standing so near
+                    <br/>Oh, my dear
+                    <br/>I wish we could be one again
+                    <br/>I will hit you hard to see
+                    <br/>If you can take my heart along with you
+                    <br/>
+                    <br/>I am not allowed to die
+                    <br/>I always change, I will born again
+                    <br/>Infinite force I have within
+                    <br/>In flames so high I’m burning inside
+                    <br/>
+                    <br/>I will keep it up
+                    <br/>I will keep it low
+                    <br/>Try to keep on living
+                    <br/>There is no other way
+                    <br/>Keep on loving
                 </Col>
 
                 <Col className="Release-right">

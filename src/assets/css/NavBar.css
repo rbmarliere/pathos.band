@@ -17,6 +17,13 @@
     color: #b0bdc7 !important;
 }
 
+.NavBar-brand:hover {
+    color: #ffa600 !important;
+}
+
+.NavBar-link {
+}
+
 @font-face {
   font-family: 'Tattegrain';
   src: local('Tattegrain'), url(../font/Tattegrain3.woff) format('woff');

@@ -6,7 +6,6 @@ import
     Collapse,
     Nav,
     Navbar,
-    NavbarBrand,
     NavbarToggler,
     NavItem,
 } from "reactstrap";
@@ -33,20 +32,20 @@ class NavBar extends Component
             <div className="NavBar">
                 <Navbar color="dark" dark expand="md" className={ this.props.scroll > this.props.navtop ? "NavBar-fixed" : "" }>
 
-                    <NavbarBrand href="/" className="NavBar-brand">
+                    <Link to="/" className="NavBar-brand">
                         PATHOS
-                    </NavbarBrand>
+                    </Link>
 
                     <NavbarToggler onClick={ this.toggle } />
 
                     <Collapse isOpen={ this.state.isOpen } navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <Link className="NavBar-link" to="/rapture"> Rapture!  </Link>
+                                <Link className="NavBar-link nav-link" to="/rapture"> Rapture!  </Link>
                             </NavItem>
 
                             <NavItem>
-                                <Link className="NavBar-link" to="/elixir"> Elixir </Link>
+                                <Link className="NavBar-link nav-link" to="/elixir"> Elixir </Link>
                             </NavItem>
                         </Nav>
                     </Collapse>
