@@ -25,6 +25,6 @@
 }
 
 @font-face {
-  font-family: 'Tattegrain';
-  src: local('Tattegrain'), url(../font/Tattegrain3.woff) format('woff');
+  font-family: "Tattegrain";
+  src: local("Tattegrain"), url(../font/Tattegrain3.woff) format("woff");
 }

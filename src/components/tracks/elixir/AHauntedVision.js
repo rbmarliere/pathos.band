@@ -23,24 +23,24 @@ const Portal = () =>
             <Row>
                 <Col className="Release-left">
                     Do you wanna climb a long stair?
-                    <br/>Glory and fame it's up there
-                    <br/>Step by step you'll have to go
+                    <br/>Glory and fame it&apos;s up there
+                    <br/>Step by step you&apos;ll have to go
                     <br/>and down here you leave your soul
                     <br/>
-                    <br/>You can't fear what's in the way
-                    <br/>What will you see? I can't say
+                    <br/>You can&apos;t fear what&apos;s in the way
+                    <br/>What will you see? I can&apos;t say
                     <br/>This stair is different to each one
-                    <br/>Who climbs it up don't return
+                    <br/>Who climbs it up don&apos;t return
                     <br/>
                     <br/>As you can see, this ladder is so steep
-                    <br/>You're not blind, go and try to find
+                    <br/>You&apos;re not blind, go and try to find
                     <br/>a mean to your soul! Now you have to go
                     <br/>Now you have to go, now you got to go!
                     <br/>
-                    <br/>Don't be afraid, start your climb
-                    <br/>As soon as you leave, you'll arrive
+                    <br/>Don&apos;t be afraid, start your climb
+                    <br/>As soon as you leave, you&apos;ll arrive
                     <br/>Tell goodbye to your family and friends
-                    <br/>Maybe you won't see them never again
+                    <br/>Maybe you won&apos;t see them never again
                 </Col>
 
                 <Col className="Release-right">

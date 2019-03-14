@@ -32,7 +32,7 @@ const Cartel = () =>
                     <br/>
                     <br/>For generations being refined
                     <br/>A simple craft of special design
-                    <br/>The heirloom that you'll never find
+                    <br/>The heirloom that you&apos;ll never find
                     <br/>With sole purpose to misalign
                     <br/>To rig, to squeeze and to grind
                     <br/>Grow tired or you stay blind

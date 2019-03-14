@@ -45,7 +45,7 @@ const Coniunctio = () =>
                     <br/>
                     <br/>Soul
                     <br/>Bending inside
-                    <br/>Life's dripping out of my mind
+                    <br/>Life&apos;s dripping out of my mind
                     <br/>Hot and cold, empty and full
                     <br/>Common process to naturalize
                     <br/>
