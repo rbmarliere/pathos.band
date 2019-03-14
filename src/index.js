@@ -4,9 +4,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route } from "react-router-dom";
 
-// views
-import Home from "./views/Home";
-
 // fa
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -39,11 +36,16 @@ history.listen( (location) => {
     ReactGA.pageview( location.pathname );
 });
 
+// views
+import Elixir from "./views/Elixir";
+import Home from "./views/Home";
+
 // render
 ReactDOM.render(
     <Router history={ history }>
         <div>
             <Route path="/" component={Home} exact />
+            <Route path="/elixir" component={Elixir} exact />
         </div>
     </Router>,
     document.getElementById("root")
