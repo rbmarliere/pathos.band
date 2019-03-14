@@ -57,7 +57,6 @@ const Gods = () =>
                     <br/>Letra por JP Vieira
                     <br/>Percussão por Álvaro Moutinho
                     <br/>Piano elétrico por Luiz Andrès
-                    <br/>Teclas por Luiz Andrès
                     <br/>Voz de JP Vieira
                     <br/>Voz de apoio de Hugo Moutinho
                     <br/>Órgão por Luiz Andrès

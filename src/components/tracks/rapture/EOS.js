@@ -32,7 +32,6 @@ const EOS = () =>
                     <br/>Percussão por Álvaro Moutinho
                     <br/>Piano elétrico por Luiz Andrès
                     <br/>Sintetizadores por Luiz Andrès
-                    <br/>Teclas por Luiz Andrès
                     <br/>Voz de JP Vieira
                     <br/>Vozes de apoio de Hugo Moutinho e Ricardo Marlière
                     <br/>Órgão por Luiz Andrès
