@@ -17,8 +17,9 @@ import Gods from "../components/tracks/rapture/Gods";
 import EOS from "../components/tracks/rapture/EOS";
 
 // pictures
-import cover from "../assets/image/elixir/artwork01.png";
+import p0 from "../assets/image/elixir/artwork01.png";
 import p1 from "../assets/image/elixir/01.jpg";
+const artwork = [{ src: p0, width: 1, height: 1 }];
 const photos = [
     {
         src: p1,
@@ -33,7 +34,7 @@ const Rapture = () =>
         <App>
             <div className="Release">
                 <div className="Release-cover">
-                    <img className="img-fluid" src={ cover } alt="Rapture" />
+                    <Gallery photos={ artwork } direction={ "column" } />
                 </div>
 
                 &nbsp;

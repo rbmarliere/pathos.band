@@ -22,6 +22,10 @@ class Gallery extends Component
         this.gotoNext = this.gotoNext.bind(this);
         this.gotoPrevious = this.gotoPrevious.bind(this);
         this.state = { currentImage: 0 };
+        if( ! this.props.direction )
+            this.columns = columns;
+        else
+            this.columns = 1;
     }
 
     openLightbox(event, obj)
@@ -58,7 +62,7 @@ class Gallery extends Component
     {
         return (
             <div className="Gallery">
-                <Gall photos={ this.props.photos } columns={ columns } onClick={ this.openLightbox }/>
+                <Gall photos={ this.props.photos } columns={ this.columns } direction={ this.props.direction } onClick={ this.openLightbox }/>
                 <Lightbox
                     images={ this.props.photos }
                     onClose={this.closeLightbox}
@@ -74,7 +78,9 @@ class Gallery extends Component
 
 Gallery.propTypes =
 {
-    photos: PropTypes.array.isRequired
+    photos: PropTypes.array.isRequired,
+    columns: PropTypes.number,
+    direction: PropTypes.string
 };
 
 export default Gallery;

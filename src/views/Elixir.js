@@ -18,11 +18,12 @@ import TheWanderer from "../components/tracks/elixir/TheWanderer";
 import Sequel from "../components/tracks/elixir/Sequel";
 
 // pictures
-import cover from "../assets/image/elixir/artwork02.png";
+import p0 from "../assets/image/elixir/artwork02.png";
 import p1 from "../assets/image/elixir/01.jpg";
 import p2 from "../assets/image/elixir/02.jpg";
 import p3 from "../assets/image/elixir/artwork03.png";
 import p4 from "../assets/image/elixir/artwork04.png";
+const artwork = [{ src: p0, width: 1, height: 1 }];
 const photos = [
     {
         src: p1,
@@ -52,7 +53,7 @@ const Elixir = () =>
         <App>
             <div className="Release">
                 <div className="Release-cover">
-                    <img className="img-fluid" src={ cover } alt="Elixir" />
+                    <Gallery photos={ artwork } direction={ "column" } />
                 </div>
 
                 &nbsp;
