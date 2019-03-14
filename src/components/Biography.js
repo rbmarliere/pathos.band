@@ -1,20 +1,21 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { withTranslation } from "react-i18next";
 import {
     Container,
     Col,
     Row
 } from "reactstrap";
 
-const Biography = () =>
+const Biography = ({ t }) =>
 {
     return (
         <div className="Biography quote">
             <Container>
-                <Row>&nbsp;</Row>
                 <Row>
                     <Col md="1"></Col>
                     <Col className="quote2" xs="12" md="10">
-                        <b> Pathos </b> é uma banda independente de Minas Gerais, formada em 2014 e composta por Hugo Moutinho, JP Vieira, Lucas Guida, Luiz Andrès e Ricardo Marlière.
+                        { t("pathos") }
                     </Col>
                     <Col md="1"></Col>
                 </Row>
@@ -40,5 +41,10 @@ const Biography = () =>
     );
 };
 
-export default Biography;
+Biography.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Biography);
 
