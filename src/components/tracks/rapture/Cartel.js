@@ -51,11 +51,13 @@ const Cartel = () =>
                     <br/>Guitarra elétrica por Ricardo Marlière
                     <br/>Letra por Ricardo Marlière
                     <br/>Percussão por Álvaro Moutinho
-                    <br/>Teclas por Luiz Andrès
+                    <br/>Piano elétrico por Luiz Andrès
+                    <br/>Sintetizadores por Luiz Andrès
                     <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière
                     <br/>Violão de aço por Ricardo Marlière
                     <br/>Voz de JP Vieira
                     <br/>Voz de apoio de Hugo Moutinho
+                    <br/>Órgão por Luiz Andrès
                     <br/>
                     <br/>&quot;Now a federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
                     <br/>Noam Chomsky

@@ -28,10 +28,14 @@ const EOS = () =>
                     <br/>Concebida por Ricardo Marlière
                     <br/>Guitarra elétrica por Ricardo Marlière
                     <br/>Letra por Ricardo Marlière e JP Vieira
+                    <br/>Mellotron por Luiz Andrès
                     <br/>Percussão por Álvaro Moutinho
+                    <br/>Piano elétrico por Luiz Andrès
+                    <br/>Sintetizadores por Luiz Andrès
                     <br/>Teclas por Luiz Andrès
                     <br/>Voz de JP Vieira
                     <br/>Vozes de apoio de Hugo Moutinho e Ricardo Marlière
+                    <br/>Órgão por Luiz Andrès
                 </Col>
 
                 <Col className="Release-right">

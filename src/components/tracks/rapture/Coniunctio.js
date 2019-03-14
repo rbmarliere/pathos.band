@@ -29,11 +29,12 @@ const Coniunctio = () =>
                     <br/>Guitarra elétrica por Ricardo Marlière
                     <br/>Letra por JP Vieira
                     <br/>Percussão por Álvaro Moutinho
+                    <br/>Piano elétrico por Luiz Andrès
                     <br/>Teclas por Luiz Andrès
                     <br/>Violão de nylon por Luiz Andrès
                     <br/>Voz de JP Vieira
                     <br/>Vozes de apoio de Lorena Fernandes e Pathos
-                    <br/>
+                    <br/>Órgão por Luiz Andrès
                 </Col>
 
                 <Col className="Release-right">

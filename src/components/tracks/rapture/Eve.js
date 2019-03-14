@@ -30,11 +30,12 @@ const Eve = () =>
                     <br/>Guitarra elétrica por Ricardo Marlière
                     <br/>Letra por Ricardo Marlière e JP Vieira
                     <br/>Percussão por Álvaro Moutinho
-                    <br/>Teclas por Luiz Andrès
+                    <br/>Piano elétrico por Luiz Andrès
                     <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière
                     <br/>Violão de aço por Ricardo Marlière
                     <br/>Voz de JP Vieira
                     <br/>Voz de apoio de Lorena Fernandes
+                    <br/>Órgão por Luiz Andrès
                 </Col>
 
                 <Col className="Release-right">
