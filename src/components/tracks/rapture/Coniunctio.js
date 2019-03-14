@@ -30,6 +30,7 @@ const Coniunctio = () =>
                     <br/>Letra por JP Vieira
                     <br/>Percussão por Álvaro Moutinho
                     <br/>Piano elétrico por Luiz Andrès
+                    <br/>Violão de 12 por Arthur Damásio
                     <br/>Violão de nylon por Luiz Andrès
                     <br/>Voz de JP Vieira
                     <br/>Vozes de apoio de Lorena Fernandes e Pathos
