@@ -41,6 +41,9 @@ import Elixir from "./views/Elixir";
 import Home from "./views/Home";
 import Rapture from "./views/Rapture";
 
+// locale
+import "./i18n";
+
 // render
 ReactDOM.render(
     <Router history={ history }>
