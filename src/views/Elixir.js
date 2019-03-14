@@ -23,7 +23,6 @@ import p1 from "../assets/image/elixir/01.jpg";
 import p2 from "../assets/image/elixir/02.jpg";
 import p3 from "../assets/image/elixir/artwork03.png";
 import p4 from "../assets/image/elixir/artwork04.png";
-
 const photos = [
     {
         src: p1,
@@ -65,7 +64,7 @@ const Elixir = () =>
                 <hr/>
 
                 <Row>
-                    <Col className="Release-left">
+                    <Col className="Release-just">
                         <p>
                             &quot;Peso, distorção, arrojo, apropriação da tradição, tudo na medida certa. FODA-SE quem acha que estamos vivendo momentos de ressaca ou pobreza em nossa música! SAPORRA diz tudo! Essa música resume tudo o que várias outras bandas vem buscando dentro do cenário nacional.&quot;
                         </p>
@@ -83,28 +82,29 @@ const Elixir = () =>
                         </p>
                         <a href="http://stonerking1.blogspot.com.br/2015/08/pathos-elixir-brazil-prog-stoners-debut.html">FDJ</a>
                     </Col>
+                </Row>
 
-                    <Col className="Release-right">
-                        <div className="Release-credits">
-                            Lançado no dia 6 de Agosto de 2015
-                            <br/>
-                            <br/>Gravado ao vivo no Estúdio Verde na cidade de Belo Horizonte nos dias 21 e 22 de Fevereiro de 2015
-                            <br/>Engenheiro de áudio: Arthur Damásio
-                            <br/>
-                            <br/>Gravações de flauta feitas no Estúdio Immaginaria em Juiz de Fora no dia 2 de Julho de 2015
-                            <br/>Engenheiro de áudio: Vinícius Faza
-                            <br/>
-                            <br/>Mixado por Arthur Damásio
-                            <br/>Masterizado por César Santos
-                            <br/>
-                            <br/>Produção musical por Arthur Damásio e Pathos
-                            <br/>Produtor executivo: Ricardo Marlière
-                            <br/>
-                            <br/>Arte por Herman Faulstich
-                            <br/>
-                            <br/>Todas as músicas por Pathos
-                        </div>
-                    </Col>
+                <hr/>
+                <Row>
+                    <div className="Release-credits">
+                        Lançado no dia 6 de Agosto de 2015
+                        <br/>
+                        <br/>Gravado ao vivo no Estúdio Verde na cidade de Belo Horizonte nos dias 21 e 22 de Fevereiro de 2015
+                        <br/>Engenheiro de áudio: Arthur Damásio
+                        <br/>
+                        <br/>Gravações de flauta feitas no Estúdio Immaginaria em Juiz de Fora no dia 2 de Julho de 2015
+                        <br/>Engenheiro de áudio: Vinícius Faza
+                        <br/>
+                        <br/>Mixado por Arthur Damásio
+                        <br/>Masterizado por César Santos
+                        <br/>
+                        <br/>Produção musical por Arthur Damásio e Pathos
+                        <br/>Produtor executivo: Ricardo Marlière
+                        <br/>
+                        <br/>Arte por Herman Faulstich
+                        <br/>
+                        <br/>Todas as músicas por Pathos
+                    </div>
                 </Row>
 
                 <hr/>

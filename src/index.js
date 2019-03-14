@@ -39,6 +39,7 @@ history.listen( (location) => {
 // views
 import Elixir from "./views/Elixir";
 import Home from "./views/Home";
+import Rapture from "./views/Rapture";
 
 // render
 ReactDOM.render(
@@ -46,6 +47,7 @@ ReactDOM.render(
         <div>
             <Route path="/" component={Home} exact />
             <Route path="/elixir" component={Elixir} exact />
+            <Route path="/rapture" component={Rapture} exact />
         </div>
     </Router>,
     document.getElementById("root")
