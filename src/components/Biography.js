@@ -14,7 +14,7 @@ const Biography = () =>
                 <Row>
                     <Col md="1"></Col>
                     <Col className="quote2" xs="12" md="10">
-                        <b> Pathos </b> é uma banda independente de Juiz de Fora (MG) formada em 2014 e composta por Hugo Moutinho, JP Vieira, Lucas Guida, Luiz Andrès e Ricardo Marlière.
+                        <b> Pathos </b> é uma banda independente de Minas Gerais, formada em 2014 e composta por Hugo Moutinho, JP Vieira, Lucas Guida, Luiz Andrès e Ricardo Marlière.
                     </Col>
                     <Col md="1"></Col>
                 </Row>

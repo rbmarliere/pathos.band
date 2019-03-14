@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Banner from "./Banner";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import { Container } from "reactstrap";
 
 class App extends Component
 {
@@ -46,7 +47,9 @@ class App extends Component
                 <Banner onLoad={ this.handleBannerLoaded.bind(this) }/>
                 <NavBar scroll={ this.state.scroll } navtop={ this.state.navtop }/>
                 <div className="Content">
-                    { this.props.children }
+                    <Container>
+                        { this.props.children }
+                    </Container>
                 </div>
                 <Footer/>
             </div>
