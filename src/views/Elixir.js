@@ -87,7 +87,7 @@ const Elixir = () =>
 
                 <hr/>
                 <Row>
-                    <div className="Release-credits">
+                    <Col className="Release-credits">
                         Lançado no dia 6 de Agosto de 2015
                         <br/>
                         <br/>Gravado ao vivo no Estúdio Verde na cidade de Belo Horizonte nos dias 21 e 22 de Fevereiro de 2015
@@ -105,7 +105,7 @@ const Elixir = () =>
                         <br/>Arte por Herman Faulstich
                         <br/>
                         <br/>Todas as músicas por Pathos
-                    </div>
+                    </Col>
                 </Row>
 
                 <hr/>
