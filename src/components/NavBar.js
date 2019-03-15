@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import
 {
     Collapse,
@@ -8,9 +9,17 @@ import
     Navbar,
     NavbarToggler,
     NavItem,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem
 } from "reactstrap";
 
 import "../assets/css/NavBar.css";
+
+import { withTranslation } from "react-i18next";
+import BR from "../assets/image/Brasil.png";
+import US from "../assets/image/USA.png";
 
 class NavBar extends Component
 {
@@ -47,6 +56,22 @@ class NavBar extends Component
                             <NavItem>
                                 <Link className="NavBar-link nav-link" to="/elixir"> Elixir </Link>
                             </NavItem>
+
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                    <FontAwesomeIcon icon={ ["fas", "language"] }  size="2x"/>&nbsp;
+                                </DropdownToggle>
+
+                                <DropdownMenu right>
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } }>
+                                        <img src={ BR } alt="" />
+                                    </DropdownItem>
+
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } }>
+                                        <img src={ US } alt="" />
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
                         </Nav>
                     </Collapse>
 
@@ -62,5 +87,5 @@ NavBar.propTypes =
     navtop: PropTypes.number
 };
 
-export default NavBar;
+export default withTranslation()(NavBar);
 

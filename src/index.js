@@ -13,13 +13,18 @@ import {
     faSpotify,
     faTwitter,
     faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+    faLanguage
+} from "@fortawesome/free-solid-svg-icons";
 library.add(
     faBandcamp,
     faFacebook,
     faInstagram,
     faSpotify,
     faTwitter,
-    faYoutube );
+    faYoutube,
+    faLanguage
+);
 
 // style
 import "./assets/css/index.css";
