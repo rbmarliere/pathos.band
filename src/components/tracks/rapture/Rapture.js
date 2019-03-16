@@ -14,10 +14,9 @@ const Rapture = () =>
 
             &nbsp;
 
-            {/*
-                <div className="Release-player"
-                <iframe title="Rapture" className="Release-bcplayer" 
-            */}
+            <div className="Release-player">
+                <iframe title="Rapture" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=112071643/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
+            </div>
 
             &nbsp;
 
@@ -61,7 +60,7 @@ const Rapture = () =>
                     <br/>
                     <br/>Cause I drink by the eight and ninety
                     <br/>Rules of art, they are my specialty
-                    <br/>And I make love exceeding by delicacy
+                    <br/>and I make love exceeding by delicacy
                     <br/>Still, I don’t sink!
                 </Col>
 

@@ -14,10 +14,9 @@ const Eve = () =>
 
             &nbsp;
 
-            {/*
-                <div className="Release-player"
-                <iframe title="Eve" className="Release-bcplayer" 
-            */}
+            <div className="Release-player">
+                <iframe title="Eve" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1604725837/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
+            </div>
 
             &nbsp;
 
@@ -46,7 +45,7 @@ const Eve = () =>
                     <br/>
                     <br/>The need of breathing new and fresh air
                     <br/>Is driving her mad while she wonders what&apos;s fair
-                    <br/>And in her climb, ten thousand years go by
+                    <br/>and in her climb, ten thousand years go by
                     <br/>As a hissing sound invites her to try
                     <br/>
                     <br/>Stop to witness the ruin, the missiles

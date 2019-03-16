@@ -14,10 +14,9 @@ const Gods = () =>
 
             &nbsp;
 
-            {/*
-                <div className="Release-player"
-                <iframe title="Gods" className="Release-bcplayer" 
-            */}
+            <div className="Release-player">
+                <iframe title="Gods" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1045522155/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
+            </div>
 
             &nbsp;
 
@@ -31,7 +30,7 @@ const Gods = () =>
                     <br/>I think we should get going
                     <br/>and get out of this scary place
                     <br/>At first, it looked like heaven
-                    <br/>but now I see the fear stamped in your face
+                    <br/>But now I see the fear stamped in your face
                     <br/>
                     <br/>Forget about the sentry carrying the sword
                     <br/>We’ll find a place so we can call home

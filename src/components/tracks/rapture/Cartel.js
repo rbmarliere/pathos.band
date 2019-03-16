@@ -14,10 +14,9 @@ const Cartel = () =>
 
             &nbsp;
 
-            {/*
-                <div className="Release-player"
-                <iframe title="Cartel" className="Release-bcplayer" 
-            */}
+            <div className="Release-player">
+                <iframe title="Cartel" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=2159531306/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
+            </div>
 
             &nbsp;
 
@@ -60,7 +59,7 @@ const Cartel = () =>
                     <br/>Órgão por Luiz Andrès
                     <br/>
                     <br/>&quot;Now a federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
-                    <br/>Noam Chomsky
+                    <br/><a href="https://youtu.be/vq9irdLcZmU?t=265">Noam Chomsky</a>
                 </Col>
             </Row>
         </div>
