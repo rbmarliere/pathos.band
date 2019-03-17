@@ -8,7 +8,7 @@ const Coniunctio = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-title Release-coniunctio">
                 Coniunctio
             </div>
 

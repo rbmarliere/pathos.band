@@ -37,3 +37,8 @@ body {
     src: local("Trees"), url(../font/Trees.ttf);
 }
 
+@font-face {
+    font-family: "Ancient";
+    src: local("Ancient"), url(../font/Ancient.ttf);
+}
+
