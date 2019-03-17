@@ -22,16 +22,20 @@ const Portal = () =>
 
             <Row>
                 <Col className="Release-left">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Flauta por Gabriel Vaz Duque
-                    <br/>Percussão por Gustavo Campos
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Flauta por Gabriel Vaz Duque
+                        <br/>Percussão por Gustavo Campos
+                    </div>
                 </Col>
 
                 <Col className="Release-right">
-                    &quot;Nada conheça! Todos os caminhos são da inocência. A pura loucura é a chave da iniciação. Silêncio quebra na raptura.&quot;
-                    <br/>O Livro de Thoth
+                    <div className="Release-quote">
+                        &quot;Nada conheça! Todos os caminhos são da inocência. A pura loucura é a chave da iniciação. Silêncio quebra na raptura.&quot;
+                        <br/>O Livro de Thoth
+                    </div>
                 </Col>
             </Row>
         </div>

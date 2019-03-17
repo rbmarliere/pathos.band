@@ -8,7 +8,7 @@ const Cartel = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-cartel">
                 Cartel
             </div>
 
@@ -43,23 +43,28 @@ const Cartel = () =>
                 </Col>
 
                 <Col className="Release-right">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Concebida por Ricardo Marlière
-                    <br/>Fragmento de fala de Noam Chomsky
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por Ricardo Marlière
-                    <br/>Percussão por Álvaro Moutinho
-                    <br/>Piano elétrico por Luiz Andrès
-                    <br/>Sintetizadores por Luiz Andrès
-                    <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière
-                    <br/>Violão de aço por Ricardo Marlière
-                    <br/>Voz de JP Vieira
-                    <br/>Voz de apoio de Hugo Moutinho
-                    <br/>Órgão por Luiz Andrès
-                    <br/>
-                    <br/>&quot;Now a federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
-                    <br/><a href="https://youtu.be/vq9irdLcZmU?t=265">Noam Chomsky</a>
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Concebida por Ricardo Marlière
+                        <br/>Fragmento de fala de Noam Chomsky
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por Ricardo Marlière
+                        <br/>Percussão por Álvaro Moutinho
+                        <br/>Piano elétrico por Luiz Andrès
+                        <br/>Sintetizadores por Luiz Andrès
+                        <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière
+                        <br/>Violão de aço por Ricardo Marlière
+                        <br/>Voz de JP Vieira
+                        <br/>Voz de apoio de Hugo Moutinho
+                        <br/>Órgão por Luiz Andrès
+                    </div>
+
+                    <div className="Release-quote">
+                        <br/><br/>
+                        &quot;Now a federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
+                        <br/><a href="https://youtu.be/vq9irdLcZmU?t=265">Noam Chomsky</a>
+                    </div>
                 </Col>
             </Row>
         </div>

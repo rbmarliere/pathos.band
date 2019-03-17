@@ -22,6 +22,21 @@ const Ankh = () =>
 
             <Row>
                 <Col className="Release-left">
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por Ricardo Marlière
+                        <br/>Mellotron por Arthur Damásio
+                        <br/>Voz de JP Vieira
+                        <br/>Voz de apoio de Hugo Moutinho
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
+                </Col>
+
+                <Col className="Release-right">
                     In this world I was born
                     <br/>Spitted in fire
                     <br/>Through my birth in death
@@ -67,15 +82,6 @@ const Ankh = () =>
                     <br/>Keep on loving
                 </Col>
 
-                <Col className="Release-right">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por Ricardo Marlière
-                    <br/>Mellotron por Arthur Damásio
-                    <br/>Voz de JP Vieira
-                    <br/>Voz de apoio de Hugo Moutinho
-                </Col>
             </Row>
         </div>
     );

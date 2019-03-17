@@ -1,9 +1,9 @@
 .NavBar > nav{
-  width: 100%;
-  margin: 0;
-  top: 0;
-  background: #212121;
-  color: #ccc;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    background-color: #171f2d !important;
+    color: #ccc;
 }
 
 .NavBar-fixed {
@@ -14,17 +14,24 @@
 .NavBar-brand {
     font-family: "Tattegrain";
     font-size: 2.15em;
-    color: #b0bdc7 !important;
+    color: #a9afb9;
 }
 
 .NavBar-brand:hover {
-    color: #ffa600 !important;
+    color: #ec9d00;
 }
 
 .NavBar-link {
+    font-family: monospace;
+    font-size: 1.2em;
 }
 
-@font-face {
-  font-family: "Tattegrain";
-  src: local("Tattegrain"), url(../font/Tattegrain3.woff) format("woff");
+.NavBar-dropdown {
+    padding: 0;
+    min-width: 0;
 }
+
+.NavBar-dropdown-btn {
+    padding: 0;
+}
+

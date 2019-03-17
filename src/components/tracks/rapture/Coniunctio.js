@@ -22,18 +22,23 @@ const Coniunctio = () =>
 
             <Row>
                 <Col className="Release-left">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Concebida por Hugo Moutinho
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por JP Vieira
-                    <br/>Percussão por Álvaro Moutinho
-                    <br/>Piano elétrico por Luiz Andrès
-                    <br/>Violão de 12 por Arthur Damásio
-                    <br/>Violão de nylon por Luiz Andrès
-                    <br/>Voz de JP Vieira
-                    <br/>Vozes de apoio de Lorena Fernandes e Pathos
-                    <br/>Órgão por Luiz Andrès
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Concebida por Hugo Moutinho
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por JP Vieira
+                        <br/>Percussão por Álvaro Moutinho
+                        <br/>Piano elétrico por Luiz Andrès
+                        <br/>Violão de 12 por Arthur Damásio
+                        <br/>Violão de nylon por Luiz Andrès
+                        <br/>Voz de JP Vieira
+                        <br/>Vozes de apoio de Lorena Fernandes e Pathos
+                        <br/>Órgão por Luiz Andrès
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
 
                 <Col className="Release-right">

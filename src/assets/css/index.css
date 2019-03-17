@@ -6,17 +6,34 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.quote {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-.quote2 {
-    font-family: "Times New Roman", Georgia;
-    font-size: 1.4em;
-}
-
 .Content {
     text-align: justify;
     padding-top: 65px;
     padding-bottom: 65px;
 }
+
+@font-face {
+    font-family: "Tattegrain";
+    src: local("Tattegrain"), url(../font/Tattegrain3.woff) format("woff");
+}
+
+@font-face {
+    font-family: "PunkRocker";
+    src: local("PunkRocker"), url(../font/PunkRocker.otf);
+}
+
+@font-face {
+    font-family: "BuyMore";
+    src: local("BuyMore"), url(../font/BuyMore.ttf);
+}
+
+@font-face {
+    font-family: "Quote";
+    src: local("Quote"), url(../font/Quote.ttf);
+}
+
+@font-face {
+    font-family: "Trees";
+    src: local("Trees"), url(../font/Trees.ttf);
+}
+

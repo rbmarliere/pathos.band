@@ -22,6 +22,21 @@ const Sequel = () =>
 
             <Row>
                 <Col className="Release-left">
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por Ricardo Marlière
+                        <br/>Percussão por Gustavo Campos
+                        <br/>Trompete por Wanger Souza
+                        <br/>Voz de JP Vieira
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
+                </Col>
+
+                <Col className="Release-right">
                     As desolation rips the land apart
                     <br/>and the air is filled with sorrow
                     <br/>He fits the entire universe as one
@@ -31,15 +46,6 @@ const Sequel = () =>
                     <br/>There goes Nobody
                 </Col>
 
-                <Col className="Release-right">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por Ricardo Marlière
-                    <br/>Percussão por Gustavo Campos
-                    <br/>Trompete por Wanger Souza
-                    <br/>Voz de JP Vieira
-                </Col>
             </Row>
         </div>
     );

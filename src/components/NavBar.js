@@ -49,29 +49,57 @@ class NavBar extends Component
 
                     <Collapse isOpen={ this.state.isOpen } navbar>
                         <Nav className="ml-auto" navbar>
+
+                            <UncontrolledDropdown nav inNavbar className="NavBar-link">
+                                <DropdownToggle nav caret>
+                                    Música
+                                </DropdownToggle>
+
+                                <DropdownMenu right >
+                                    <Link to="/Rapture">
+                                        <DropdownItem>
+                                            Rapture, 2019
+                                        </DropdownItem>
+                                    </Link>
+
+                                    <Link to="/elixir">
+                                        <DropdownItem>
+                                             Elixir, 2015
+                                        </DropdownItem>
+                                    </Link>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+
                             <NavItem>
-                                <Link className="NavBar-link nav-link" to="/rapture"> Rapture!  </Link>
                             </NavItem>
 
                             <NavItem>
-                                <Link className="NavBar-link nav-link" to="/elixir"> Elixir </Link>
+                            </NavItem>
+
+                            <NavItem>
+                                <Link className="NavBar-link nav-link" to="/bio"> Biografia </Link>
+                            </NavItem>
+
+                            <NavItem>
+                                <a className="NavBar-link nav-link" href="mailto:pathos.sound@gmail.com"> Contato </a>
                             </NavItem>
 
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
-                                    <FontAwesomeIcon icon={ ["fas", "language"] }  size="2x"/>&nbsp;
+                                    <FontAwesomeIcon icon={ ["fas", "language"] } size="1x"/>&nbsp;
                                 </DropdownToggle>
 
-                                <DropdownMenu right>
-                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } }>
+                                <DropdownMenu right className="NavBar-dropdown">
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } } className="NavBar-dropdown-btn">
                                         <img src={ BR } alt="" />
                                     </DropdownItem>
 
-                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } }>
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } } className="NavBar-dropdown-btn">
                                         <img src={ US } alt="" />
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
+
                         </Nav>
                     </Collapse>
 

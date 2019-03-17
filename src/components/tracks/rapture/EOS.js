@@ -9,7 +9,9 @@ const EOS = () =>
     return (
         <div className="Release-tracks">
             <div className="Release-title">
+                <span className="Release-eos-trees"> Z </span>
                 End of Spring
+                <span className="Release-eos-trees"> c </span>
             </div>
 
             &nbsp;
@@ -22,18 +24,23 @@ const EOS = () =>
 
             <Row>
                 <Col className="Release-left">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Concebida por Ricardo Marlière
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por Ricardo Marlière e JP Vieira
-                    <br/>Mellotron por Luiz Andrès
-                    <br/>Percussão por Álvaro Moutinho
-                    <br/>Piano elétrico por Luiz Andrès
-                    <br/>Sintetizadores por Luiz Andrès
-                    <br/>Voz de JP Vieira
-                    <br/>Vozes de apoio de Hugo Moutinho e Ricardo Marlière
-                    <br/>Órgão por Luiz Andrès
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Concebida por Ricardo Marlière
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por Ricardo Marlière e JP Vieira
+                        <br/>Mellotron por Luiz Andrès
+                        <br/>Percussão por Álvaro Moutinho
+                        <br/>Piano elétrico por Luiz Andrès
+                        <br/>Sintetizadores por Luiz Andrès
+                        <br/>Voz de JP Vieira
+                        <br/>Vozes de apoio de Hugo Moutinho e Ricardo Marlière
+                        <br/>Órgão por Luiz Andrès
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
 
                 <Col className="Release-right">

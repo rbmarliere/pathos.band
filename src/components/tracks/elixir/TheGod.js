@@ -45,15 +45,21 @@ const TheGod = () =>
                 </Col>
 
                 <Col className="Release-right">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por Ricardo Marlière
-                    <br/>Percussão por Gustavo Campos
-                    <br/>Voz de JP Vieira
-                    <br/>Voz de apoio de Hugo Moutinho
-                    <br/>Sintetizador por Arthur Damásio
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por Ricardo Marlière
+                        <br/>Percussão por Gustavo Campos
+                        <br/>Voz de JP Vieira
+                        <br/>Voz de apoio de Hugo Moutinho
+                        <br/>Sintetizador por Arthur Damásio
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
+
             </Row>
         </div>
     );

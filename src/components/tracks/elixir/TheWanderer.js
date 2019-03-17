@@ -22,17 +22,6 @@ const TheWanderer = () =>
 
             <Row>
                 <Col className="Release-left">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por Herman Faulstich e Ricardo Marlière
-                    <br/>Percussão por Gustavo Campos
-                    <br/>Piano por Arthur Damásio
-                    <br/>Voz de Apoio de Hugo Moutinho
-                    <br/>Voz de JP Vieira
-                </Col>
-
-                <Col className="Release-right">
                     He is no doubt a man
                     <br/>But to another realm he belongs
                     <br/>From a cold distant mountain he comes
@@ -55,8 +44,24 @@ const TheWanderer = () =>
                     <br/>Blessed in the fire of battle
                     <br/>Whose scarlet soaked wire
                     <br/>Makes him a restless servant of death
-
                 </Col>
+
+                <Col className="Release-right">
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por Herman Faulstich e Ricardo Marlière
+                        <br/>Percussão por Gustavo Campos
+                        <br/>Piano por Arthur Damásio
+                        <br/>Voz de Apoio de Hugo Moutinho
+                        <br/>Voz de JP Vieira
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
+                </Col>
+
             </Row>
         </div>
     );

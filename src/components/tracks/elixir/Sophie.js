@@ -22,16 +22,21 @@ const Sophie = () =>
 
             <Row>
                 <Col className="Release-left">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Flauta por Gabriel Vaz Duque
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por JP Vieira e Ricardo Marlière
-                    <br/>Percussão por Gustavo Campos
-                    <br/>Violão por Ricardo Marlière
-                    <br/>Voz de apoio de Hugo Moutinho
-                    <br/>Voz de JP Vieira
-                    <br/>Órgão por Arthur Damásio
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Flauta por Gabriel Vaz Duque
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por JP Vieira e Ricardo Marlière
+                        <br/>Percussão por Gustavo Campos
+                        <br/>Violão por Ricardo Marlière
+                        <br/>Voz de apoio de Hugo Moutinho
+                        <br/>Voz de JP Vieira
+                        <br/>Órgão por Arthur Damásio
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
 
                 <Col className="Release-right">

@@ -9,6 +9,8 @@
 
 .Release-title {
     text-align: center;
+    font-family: "PunkRocker";
+    font-size: 6em;
 }
 
 .Release-credits {
@@ -39,8 +41,25 @@
     text-align: left;
 }
 
-.Release > p {
-    font-family: quote;
-    font-size: 15px;
-    letter-spacing: .5px;
+.Release-track-credits {
+    font-family: monospace;
+    font-size: 0.8em;
+    font-weight: bold;
 }
+
+.Release-quote {
+    font-family: "Quote";
+    font-size: 1em;
+    font-style: italic;
+}
+
+.Release-cartel {
+    text-align: center;
+    font-family: "BuyMore";
+    font-size: 4em;
+}
+
+.Release-eos-trees {
+    font-family: "Trees";
+}
+

@@ -22,19 +22,24 @@ const Eve = () =>
 
             <Row>
                 <Col className="Release-left">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Concebida por Ricardo Marlière
-                    <br/>Fragmento de fala de Noam Chomsky
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por Ricardo Marlière e JP Vieira
-                    <br/>Percussão por Álvaro Moutinho
-                    <br/>Piano elétrico por Luiz Andrès
-                    <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière
-                    <br/>Violão de aço por Ricardo Marlière
-                    <br/>Voz de JP Vieira
-                    <br/>Voz de apoio de Lorena Fernandes
-                    <br/>Órgão por Luiz Andrès
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Concebida por Ricardo Marlière
+                        <br/>Fragmento de fala de Noam Chomsky
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por Ricardo Marlière e JP Vieira
+                        <br/>Percussão por Álvaro Moutinho
+                        <br/>Piano elétrico por Luiz Andrès
+                        <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière
+                        <br/>Violão de aço por Ricardo Marlière
+                        <br/>Voz de JP Vieira
+                        <br/>Voz de apoio de Lorena Fernandes
+                        <br/>Órgão por Luiz Andrès
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
 
                 <Col className="Release-right">

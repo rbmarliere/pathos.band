@@ -44,13 +44,19 @@ const Portal = () =>
                 </Col>
 
                 <Col className="Release-right">
-                    Baixo por Lucas Guida
-                    <br/>Bateria por Hugo Moutinho
-                    <br/>Guitarra elétrica por Ricardo Marlière
-                    <br/>Letra por JP Vieira
-                    <br/>Percussão por Gustavo Campos
-                    <br/>Voz de JP Vieira
+                    <div className="Release-track-credits">
+                        Baixo por Lucas Guida
+                        <br/>Bateria por Hugo Moutinho
+                        <br/>Guitarra elétrica por Ricardo Marlière
+                        <br/>Letra por JP Vieira
+                        <br/>Percussão por Gustavo Campos
+                        <br/>Voz de JP Vieira
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
+
             </Row>
         </div>
     );
