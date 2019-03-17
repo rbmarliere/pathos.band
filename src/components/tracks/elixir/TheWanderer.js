@@ -8,7 +8,7 @@ const TheWanderer = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 The Wanderer
             </div>
 
@@ -21,7 +21,7 @@ const TheWanderer = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col className="Release-left Release-lyric">
                     He is no doubt a man
                     <br/>But to another realm he belongs
                     <br/>From a cold distant mountain he comes
@@ -51,7 +51,7 @@ const TheWanderer = () =>
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Herman Faulstich e Ricardo Marlière
+                        <br/>Letra de Herman Faulstich e Ricardo Marlière
                         <br/>Percussão por Gustavo Campos
                         <br/>Piano por Arthur Damásio
                         <br/>Voz de Apoio de Hugo Moutinho

@@ -84,7 +84,7 @@ const Rapture = () =>
                             Lançado no dia 20 de Março de 2019
                             <br/>
                             <br/>Gravado no Sonastério na cidade de Belo Horizonte nos dias 18 a 22 de Julho de 2018
-                            <br/>Participações especiais no Moutinho&apos;s Estúdio em Juiz de Fora em Dez/2018 e Jan/2019
+                            <br/>Participações especiais gravadas no Moutinho&apos;s Estúdio em Juiz de Fora em Dezembro de 2018 e Janeiro de 2019
                             <br/>Engenheiro de áudio: Arthur Damásio
                             <br/>
                             <br/>Mixado por Arthur Damásio

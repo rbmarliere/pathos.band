@@ -8,7 +8,7 @@ const Portal = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 A Haunted Vision
             </div>
 
@@ -21,7 +21,7 @@ const Portal = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col className="Release-left Release-lyric">
                     Do you wanna climb a long stair?
                     <br/>Glory and fame it&apos;s up there
                     <br/>Step by step you&apos;ll have to go
@@ -48,7 +48,7 @@ const Portal = () =>
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por JP Vieira
+                        <br/>Letra de JP Vieira
                         <br/>Percussão por Gustavo Campos
                         <br/>Voz de JP Vieira
                     </div>

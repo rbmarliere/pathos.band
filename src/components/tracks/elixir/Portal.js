@@ -8,7 +8,7 @@ const Portal = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 Portal
             </div>
 

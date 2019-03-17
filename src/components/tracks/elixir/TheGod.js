@@ -8,7 +8,7 @@ const TheGod = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 The God
             </div>
 
@@ -21,23 +21,26 @@ const TheGod = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
-                    act I – The Father
+                <Col className="Release-left Release-lyric">
+                    <i>Act I – The Father</i>
                     <br/>So you are about to be born
                     <br/>My son, this shall be all yours one day
                     <br/>Rest tight until then
                     <br/>Then you’ll hear my voice in your heart
                     <br/>In dragon cold flames you’re burning and now you explode
                     <br/>
-                    <br/>act II – The Son
+                    <br/><i>Act II – The Son</i>
                     <br/>Listen father, for I have not sinned
                     <br/>Yet your voice is all that I dream of
                     <br/>Yes, I believe that I can fly
                     <br/>Look at me, how beautiful am I?
                     <br/>
-                    <br/>act III – The Hanged Man
-                    <br/>My father, why hast thou forsaken me?
-                    <br/>Look who is here
+                    <br/><i>Act III – The Hanged Man</i>
+                    <div className="Release-quote">
+                        <br/>&quot;My father, why hast thou forsaken me?&quot;
+                        <br/><a href="https://www.bibliacatolica.com.br/biblia-ave-maria/sao-mateus/27/46/">São Mateus</a>
+                    </div>
+                    Look who is here
                     <br/>Hanging out cold
                     <br/>What does he got in his pocket?
                     <br/>He looks so familiar
@@ -49,7 +52,7 @@ const TheGod = () =>
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Ricardo Marlière
+                        <br/>Letra de Ricardo Marlière
                         <br/>Percussão por Gustavo Campos
                         <br/>Voz de JP Vieira
                         <br/>Voz de apoio de Hugo Moutinho

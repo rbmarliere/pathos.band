@@ -28,11 +28,26 @@
 }
 
 .NavBar-dropdown {
+    background-color: #171f2d;
+    border: 0;
+    min-width: 3em;
     padding: 0;
-    min-width: 0;
+    padding-top: 0.5em;
 }
 
 .NavBar-dropdown-btn {
+}
+
+.NavBar-dropdown-btn:hover {
+    background-color: #171f2d;
+}
+
+.NavBar-dropdown-btn-lang {
     padding: 0;
+    width: 0;
+}
+
+.NavBar-dropdown-btn-lang:hover {
+    background-color: #171f2d;
 }
 

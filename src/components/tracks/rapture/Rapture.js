@@ -8,7 +8,7 @@ const Rapture = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 Rapture
             </div>
 
@@ -21,7 +21,7 @@ const Rapture = () =>
             &nbsp;
 
             <Row>
-                <Col xs="7" className="Release-left Release-lyrics">
+                <Col xs="7" className="Release-left Release-lyric">
                     Feeling the breeze purging all your beliefs
                     <br/>I’m glad to see you finally turned off that screen
                     <br/>Now let me tell you gotta move on or freeze
@@ -70,7 +70,7 @@ const Rapture = () =>
                         <br/>Bateria por Hugo Moutinho
                         <br/>Concebida por Ricardo Marlière
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Ricardo Marlière e JP Vieira
+                        <br/>Letra de Ricardo Marlière e JP Vieira
                         <br/>Percussão por Álvaro Moutinho
                         <br/>Piano elétrico por Luiz Andrès
                         <br/>Saxofone por Caetano Brasil

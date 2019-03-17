@@ -8,7 +8,7 @@ const Sophie = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 Sophie
             </div>
 
@@ -27,7 +27,7 @@ const Sophie = () =>
                         <br/>Bateria por Hugo Moutinho
                         <br/>Flauta por Gabriel Vaz Duque
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por JP Vieira e Ricardo Marlière
+                        <br/>Letra de JP Vieira e Ricardo Marlière
                         <br/>Percussão por Gustavo Campos
                         <br/>Violão por Ricardo Marlière
                         <br/>Voz de apoio de Hugo Moutinho
@@ -39,7 +39,7 @@ const Sophie = () =>
                     </div>
                 </Col>
 
-                <Col className="Release-right">
+                <Col className="Release-right Release-lyric">
                     The fear was blinding his eyes
                     <br/>A mist he was seeing
                     <br/>In a swamp of lies

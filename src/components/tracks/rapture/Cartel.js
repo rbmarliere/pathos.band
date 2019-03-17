@@ -22,7 +22,11 @@ const Cartel = () =>
 
             <Row>
                 <Col xs="7" className="Release-left Release-lyric">
-                    Reckless will inside a sore mind
+                    <div className="Release-quote">
+                        &quot;Now a federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
+                        <br/><a href="https://youtu.be/vq9irdLcZmU?t=265">Noam Chomsky</a>
+                    </div>
+                    <br/>Reckless will inside a sore mind
                     <br/>Hollow shell apart from mankind
                     <br/>Evil makers in deeds combined
                     <br/>Left or right, black and white
@@ -49,7 +53,7 @@ const Cartel = () =>
                         <br/>Concebida por Ricardo Marlière
                         <br/>Fragmento de fala de Noam Chomsky
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Ricardo Marlière
+                        <br/>Letra de Ricardo Marlière
                         <br/>Percussão por Álvaro Moutinho
                         <br/>Piano elétrico por Luiz Andrès
                         <br/>Sintetizadores por Luiz Andrès
@@ -58,12 +62,6 @@ const Cartel = () =>
                         <br/>Voz de JP Vieira
                         <br/>Voz de apoio de Hugo Moutinho
                         <br/>Órgão por Luiz Andrès
-                    </div>
-
-                    <div className="Release-quote">
-                        <br/><br/>
-                        &quot;A federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
-                        <br/><a href="https://youtu.be/vq9irdLcZmU?t=265">Noam Chomsky</a>
                     </div>
                 </Col>
             </Row>

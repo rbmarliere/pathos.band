@@ -8,7 +8,7 @@ const EOS = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 <span className="Release-eos-trees"> Z </span>
                 End of Spring
                 <span className="Release-eos-trees"> c </span>
@@ -29,7 +29,7 @@ const EOS = () =>
                         <br/>Bateria por Hugo Moutinho
                         <br/>Concebida por Ricardo Marlière
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Ricardo Marlière e JP Vieira
+                        <br/>Letra de Ricardo Marlière e JP Vieira
                         <br/>Mellotron por Luiz Andrès
                         <br/>Percussão por Álvaro Moutinho
                         <br/>Piano elétrico por Luiz Andrès

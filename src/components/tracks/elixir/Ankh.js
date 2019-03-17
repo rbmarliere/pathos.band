@@ -8,7 +8,7 @@ const Ankh = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 Ankh
             </div>
 
@@ -26,7 +26,7 @@ const Ankh = () =>
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Ricardo Marlière
+                        <br/>Letra de Ricardo Marlière
                         <br/>Mellotron por Arthur Damásio
                         <br/>Voz de JP Vieira
                         <br/>Voz de apoio de Hugo Moutinho
@@ -36,7 +36,7 @@ const Ankh = () =>
                     </div>
                 </Col>
 
-                <Col className="Release-right">
+                <Col className="Release-right Release-lyric">
                     In this world I was born
                     <br/>Spitted in fire
                     <br/>Through my birth in death

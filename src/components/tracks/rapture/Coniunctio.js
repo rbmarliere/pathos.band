@@ -8,7 +8,7 @@ const Coniunctio = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title Release-coniunctio">
+            <div className="Release-track-title Release-coniunctio">
                 Coniunctio
             </div>
 
@@ -27,7 +27,7 @@ const Coniunctio = () =>
                         <br/>Bateria por Hugo Moutinho
                         <br/>Concebida por Hugo Moutinho
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por JP Vieira
+                        <br/>Letra de JP Vieira
                         <br/>Percussão por Álvaro Moutinho
                         <br/>Piano elétrico por Luiz Andrès
                         <br/>Violão de 12 por Arthur Damásio
@@ -35,13 +35,6 @@ const Coniunctio = () =>
                         <br/>Voz de JP Vieira
                         <br/>Vozes de apoio de Lorena Fernandes e Pathos
                         <br/>Órgão por Luiz Andrès
-                    </div>
-
-                    <div className="Release-quote">
-                        <br/><br/>
-                        &quot;Sapiens sicut sol permanet, stultus autem sicut luna mutatur
-                        <br/>Pulchra ut luna, electa ut sol&quot;
-
                     </div>
                 </Col>
 
@@ -70,9 +63,12 @@ const Coniunctio = () =>
                     <br/>Dry and wet, sweet and sweat
                     <br/>I will be reborn but not as a slave
                     <br/>
-                    <br/>Sapiens sicut sol permanet, stultus autem sicut luna mutatur
-                    <br/>Pulchra ut luna, electa ut sol
-                    <br/>
+                    <div className="Release-quote">
+                        <br/>&quot;Sapiens sicut sol permanet, stultus autem sicut luna mutatur&quot;
+                        <br/><a href="https://www.bibliacatolica.com.br/biblia-ave-maria/eclesiastico/27/12/">Eclesiástico</a>
+                        <br/>&quot;Pulchra ut luna, electa ut sol&quot;
+                        <br/><a href="https://pt.wikipedia.org/wiki/Aurora_Consurgens_(livro)">Aurora Consurgens</a>
+                    </div>
                     <br/>We swam so much
                     <br/>To die on the shore
                     <br/>This can’t be our end

@@ -55,15 +55,15 @@ class NavBar extends Component
                                     Música
                                 </DropdownToggle>
 
-                                <DropdownMenu right >
+                                <DropdownMenu right className="NavBar-dropdown">
                                     <Link to="/Rapture">
-                                        <DropdownItem>
+                                        <DropdownItem className="nav-link NavBar-dropdown-btn">
                                             Rapture, 2019
                                         </DropdownItem>
                                     </Link>
 
                                     <Link to="/elixir">
-                                        <DropdownItem>
+                                        <DropdownItem className="nav-link NavBar-dropdown-btn">
                                              Elixir, 2015
                                         </DropdownItem>
                                     </Link>
@@ -90,11 +90,11 @@ class NavBar extends Component
                                 </DropdownToggle>
 
                                 <DropdownMenu right className="NavBar-dropdown">
-                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } } className="NavBar-dropdown-btn">
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } } className="NavBar-dropdown-btn-lang">
                                         <img src={ BR } alt="" />
                                     </DropdownItem>
 
-                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } } className="NavBar-dropdown-btn">
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } } className="NavBar-dropdown-btn-lang">
                                         <img src={ US } alt="" />
                                     </DropdownItem>
                                 </DropdownMenu>

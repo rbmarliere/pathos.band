@@ -120,22 +120,16 @@ const Elixir = () =>
                 <Row>
                     <Col md="3"/>
                     <Col md="6" className="Release-just Release-quote">
-                        <p>
-                            &quot;Peso, distorção, arrojo, apropriação da tradição, tudo na medida certa. FODA-SE quem acha que estamos vivendo momentos de ressaca ou pobreza em nossa música! SAPORRA diz tudo! Essa música resume tudo o que várias outras bandas vem buscando dentro do cenário nacional.&quot;
-                        </p>
-                        <a href="http://oganpazan.com.br/elixir-2015-pathos/">Danilo Cruz</a>
+                        &quot;Peso, distorção, arrojo, apropriação da tradição, tudo na medida certa. FODA-SE quem acha que estamos vivendo momentos de ressaca ou pobreza em nossa música! SAPORRA diz tudo! Essa música resume tudo o que várias outras bandas vem buscando dentro do cenário nacional.&quot;
+                        <br/><a href="http://oganpazan.com.br/elixir-2015-pathos/">Danilo Cruz</a>
                         <br/><br/>
 
-                        <p>
-                            &quot;Elixir by Pathos more than just riff rock; it has to be called progressive stoner rock. (...) This needs some college music major to do it justice. Somehow calling this &apos;killer&apos; just isn’t enough.&quot;
-                        </p>
-                        <a href="http://doomedandstoned.com/post/126164534683/papapaulsgroovyreviews">Papa Paul</a>
+                        &quot;Elixir by Pathos more than just riff rock; it has to be called progressive stoner rock. (...) This needs some college music major to do it justice. Somehow calling this &apos;killer&apos; just isn’t enough.&quot;
+                        <br/><a href="http://doomedandstoned.com/post/126164534683/papapaulsgroovyreviews">Papa Paul</a>
                         <br/><br/>
 
-                        <p>
-                            &quot;Elixir is, on the whole, a stunning album full of little twists and turns that&apos;ll have you discovering something new in its grooves every time you play it.&quot;
-                        </p>
-                        <a href="http://stonerking1.blogspot.com.br/2015/08/pathos-elixir-brazil-prog-stoners-debut.html">FDJ</a>
+                        &quot;Elixir is, on the whole, a stunning album full of little twists and turns that&apos;ll have you discovering something new in its grooves every time you play it.&quot;
+                        <br/><a href="http://stonerking1.blogspot.com.br/2015/08/pathos-elixir-brazil-prog-stoners-debut.html">FDJ</a>
                     </Col>
                     <Col md="3"/>
                 </Row>

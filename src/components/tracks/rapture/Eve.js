@@ -8,7 +8,7 @@ const Eve = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 Eve&apos;s Dropping Apples
             </div>
 
@@ -27,7 +27,7 @@ const Eve = () =>
                         <br/>Bateria por Hugo Moutinho
                         <br/>Concebida por Ricardo Marlière
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Ricardo Marlière e JP Vieira
+                        <br/>Letra de Ricardo Marlière e JP Vieira
                         <br/>Percussão por Álvaro Moutinho
                         <br/>Piano elétrico por Luiz Andrès
                         <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière

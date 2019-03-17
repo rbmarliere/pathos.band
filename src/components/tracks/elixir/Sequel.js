@@ -8,7 +8,7 @@ const Sequel = () =>
 {
     return (
         <div className="Release-tracks">
-            <div className="Release-title">
+            <div className="Release-track-title">
                 Sequel
             </div>
 
@@ -26,7 +26,7 @@ const Sequel = () =>
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
                         <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra por Ricardo Marlière
+                        <br/>Letra de Ricardo Marlière
                         <br/>Percussão por Gustavo Campos
                         <br/>Trompete por Wanger Souza
                         <br/>Voz de JP Vieira
@@ -36,7 +36,7 @@ const Sequel = () =>
                     </div>
                 </Col>
 
-                <Col className="Release-right">
+                <Col className="Release-right Release-lyric">
                     As desolation rips the land apart
                     <br/>and the air is filled with sorrow
                     <br/>He fits the entire universe as one
