@@ -21,12 +21,11 @@ const Eve = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col xs="5" className="Release-left">
                     <div className="Release-track-credits">
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
                         <br/>Concebida por Ricardo Marlière
-                        <br/>Fragmento de fala de Noam Chomsky
                         <br/>Guitarra elétrica por Ricardo Marlière
                         <br/>Letra por Ricardo Marlière e JP Vieira
                         <br/>Percussão por Álvaro Moutinho
@@ -42,7 +41,7 @@ const Eve = () =>
                     </div>
                 </Col>
 
-                <Col className="Release-right">
+                <Col xs="7" className="Release-right Release-lyric">
                     Eve is weeping in morning gloss
                     <br/>Searching for feelings or stones to toss
                     <br/>The treetop doesn&apos;t let she see the sky light

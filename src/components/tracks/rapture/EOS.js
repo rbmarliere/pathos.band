@@ -23,7 +23,7 @@ const EOS = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col xs="5" className="Release-left">
                     <div className="Release-track-credits">
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
@@ -43,7 +43,7 @@ const EOS = () =>
                     </div>
                 </Col>
 
-                <Col className="Release-right">
+                <Col xs="7" className="Release-right Release-lyric">
                     Let’s just stare at the firmament
                     <br/>I swear it won&apos;t take too long
                     <br/>We had already left a lot behind

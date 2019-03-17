@@ -21,7 +21,7 @@ const Rapture = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col xs="7" className="Release-left Release-lyrics">
                     Feeling the breeze purging all your beliefs
                     <br/>I’m glad to see you finally turned off that screen
                     <br/>Now let me tell you gotta move on or freeze
@@ -64,7 +64,7 @@ const Rapture = () =>
                     <br/>Still, I don’t sink!
                 </Col>
 
-                <Col className="Release-right">
+                <Col xs="5" className="Release-right">
                     <div className="Release-track-credits">
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho

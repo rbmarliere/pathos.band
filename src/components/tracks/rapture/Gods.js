@@ -21,7 +21,7 @@ const Gods = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col xs="7" className="Release-left Release-lyric">
                     Our dreams are solid as rock
                     <br/>Even though they look like foolish ones
                     <br/>Look into my eyes and see
@@ -48,7 +48,7 @@ const Gods = () =>
                     <br/>and I don&apos;t dream with gods
                 </Col>
 
-                <Col className="Release-right">
+                <Col xs="5" className="Release-right">
                     <div className="Release-track-credits">
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho

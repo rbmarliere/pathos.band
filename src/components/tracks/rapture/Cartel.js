@@ -21,7 +21,7 @@ const Cartel = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col xs="7" className="Release-left Release-lyric">
                     Reckless will inside a sore mind
                     <br/>Hollow shell apart from mankind
                     <br/>Evil makers in deeds combined
@@ -42,7 +42,7 @@ const Cartel = () =>
                     <br/>Store of value, loss denied
                 </Col>
 
-                <Col className="Release-right">
+                <Col xs="5" className="Release-right">
                     <div className="Release-track-credits">
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
@@ -62,7 +62,7 @@ const Cartel = () =>
 
                     <div className="Release-quote">
                         <br/><br/>
-                        &quot;Now a federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
+                        &quot;A federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
                         <br/><a href="https://youtu.be/vq9irdLcZmU?t=265">Noam Chomsky</a>
                     </div>
                 </Col>

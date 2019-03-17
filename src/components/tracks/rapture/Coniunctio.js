@@ -21,7 +21,7 @@ const Coniunctio = () =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col xs="5" className="Release-left">
                     <div className="Release-track-credits">
                         Baixo por Lucas Guida
                         <br/>Bateria por Hugo Moutinho
@@ -45,7 +45,7 @@ const Coniunctio = () =>
                     </div>
                 </Col>
 
-                <Col className="Release-right">
+                <Col xs="7" className="Release-right Release-lyric">
                     Sou
                     <br/>Erupção
                     <br/>Sou o magma e o vulcão
