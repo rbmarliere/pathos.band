@@ -56,7 +56,7 @@ class NavBar extends Component
                                 </DropdownToggle>
 
                                 <DropdownMenu right className="NavBar-dropdown">
-                                    <Link to="/Rapture">
+                                    <Link to="/rapture">
                                         <DropdownItem className="nav-link NavBar-dropdown-btn">
                                             Rapture, 2019
                                         </DropdownItem>
