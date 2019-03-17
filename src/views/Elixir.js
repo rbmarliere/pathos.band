@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { withTranslation } from "react-i18next";
 import App from "../components/App";
 import Gallery from "../components/Gallery";
 import {
@@ -58,7 +60,7 @@ const photos = [
     { src: p18, width: 12, height: 10 }
 ];
 
-const Elixir = () =>
+const Elixir = ({ t }) =>
 {
     return (
         <App>
@@ -76,23 +78,21 @@ const Elixir = () =>
                 <hr/>
                 <Row>
                     <Col className="Release-credits">
-                        Lançado no dia 6 de Agosto de 2015
+                        { t("elx1") } <br/>
                         <br/>
-                        <br/>Gravado ao vivo no Estúdio Verde na cidade de Belo Horizonte nos dias 21 e 22 de Fevereiro de 2015
-                        <br/>Engenheiro de áudio: Arthur Damásio
+                        { t("elx2") } <br/>
+                        { t("elx3") } <br/>
+                        { t("elx4") } <br/>
+                        { t("elx5") } <br/>
                         <br/>
-                        <br/>Gravações de flauta feitas no Estúdio Immaginaria em Juiz de Fora no dia 2 de Julho de 2015
-                        <br/>Engenheiro de áudio: Vinícius Faza
+                        { t("elx6") } <br/>
+                        { t("elx7") } <br/>
                         <br/>
-                        <br/>Mixado por Arthur Damásio
-                        <br/>Masterizado por César Santos
+                        { t("elx8") } <br/>
+                        { t("elx9") } <br/>
                         <br/>
-                        <br/>Produção musical por Arthur Damásio e Pathos
-                        <br/>Produtor executivo: Ricardo Marlière
-                        <br/>
-                        <br/>Arte por Herman Faulstich
-                        <br/>
-                        <br/>Todas as músicas por Pathos
+                        { t("elx10") } <br/>
+                        { t("elx11") } <br/>
                     </Col>
                 </Row>
 
@@ -139,5 +139,10 @@ const Elixir = () =>
     );
 };
 
-export default Elixir;
+Elixir.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Elixir);
 

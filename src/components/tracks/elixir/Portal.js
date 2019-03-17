@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const Portal = () =>
+const Portal = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -23,11 +25,11 @@ const Portal = () =>
             <Row>
                 <Col className="Release-left">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Flauta por Gabriel Vaz Duque
-                        <br/>Percussão por Gustavo Campos
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("fla") } Gabriel Vaz Duque
+                        <br/>{ t("perc") } Gustavo Campos
                     </div>
                 </Col>
 
@@ -42,5 +44,10 @@ const Portal = () =>
     );
 };
 
-export default Portal;
+Portal.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Portal);
 

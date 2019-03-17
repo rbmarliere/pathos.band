@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const Ankh = () =>
+const Ankh = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -23,13 +25,13 @@ const Ankh = () =>
             <Row>
                 <Col className="Release-left">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de Ricardo Marlière
-                        <br/>Mellotron por Arthur Damásio
-                        <br/>Voz de JP Vieira
-                        <br/>Voz de apoio de Hugo Moutinho
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Ricardo Marlière
+                        <br/>{ t("mello") } Arthur Damásio
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("back") } Hugo Moutinho
                     </div>
 
                     <div className="Release-quote">
@@ -87,5 +89,10 @@ const Ankh = () =>
     );
 };
 
-export default Ankh;
+Ankh.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Ankh);
 

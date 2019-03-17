@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const Cartel = () =>
+const Cartel = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -48,20 +50,20 @@ const Cartel = () =>
 
                 <Col xs="5" className="Release-right">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Concebida por Ricardo Marlière
-                        <br/>Fragmento de fala de Noam Chomsky
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de Ricardo Marlière
-                        <br/>Percussão por Álvaro Moutinho
-                        <br/>Piano elétrico por Luiz Andrès
-                        <br/>Sintetizadores por Luiz Andrès
-                        <br/>Violão de 12 por Luiz Andrès e Ricardo Marlière
-                        <br/>Violão de aço por Ricardo Marlière
-                        <br/>Voz de JP Vieira
-                        <br/>Voz de apoio de Hugo Moutinho
-                        <br/>Órgão por Luiz Andrès
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("conc") } Ricardo Marlière
+                        <br/>{ t("talk") } Noam Chomsky
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Ricardo Marlière
+                        <br/>{ t("perc") } Álvaro Moutinho
+                        <br/>{ t("rhodes") } Luiz Andrès
+                        <br/>{ t("synth") } Luiz Andrès
+                        <br/>{ t("v12") } Luiz Andrès e Ricardo Marlière
+                        <br/>{ t("violao") } Ricardo Marlière
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("back") } Hugo Moutinho
+                        <br/>{ t("org") } Luiz Andrès
                     </div>
                 </Col>
             </Row>
@@ -69,5 +71,10 @@ const Cartel = () =>
     );
 };
 
-export default Cartel;
+Cartel.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Cartel);
 

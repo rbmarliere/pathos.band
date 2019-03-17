@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const Portal = () =>
+const AHauntedVision = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -45,12 +47,13 @@ const Portal = () =>
 
                 <Col className="Release-right">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de JP Vieira
-                        <br/>Percussão por Gustavo Campos
-                        <br/>Voz de JP Vieira
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } JP Vieira
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("rhodes") } Arthur Damásio
+                        <br/>{ t("vox") } JP Vieira
                     </div>
 
                     <div className="Release-quote">
@@ -62,5 +65,10 @@ const Portal = () =>
     );
 };
 
-export default Portal;
+AHauntedVision.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(AHauntedVision);
 

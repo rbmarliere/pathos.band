@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const Sequel = () =>
+const Sequel = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -23,13 +25,13 @@ const Sequel = () =>
             <Row>
                 <Col className="Release-left">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de Ricardo Marlière
-                        <br/>Percussão por Gustavo Campos
-                        <br/>Trompete por Wanger Souza
-                        <br/>Voz de JP Vieira
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Ricardo Marlière
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("tromp") } Wanger Souza
+                        <br/>{ t("vox") } JP Vieira
                     </div>
 
                     <div className="Release-quote">
@@ -51,5 +53,10 @@ const Sequel = () =>
     );
 };
 
-export default Sequel;
+Sequel.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Sequel);
 

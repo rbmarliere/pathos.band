@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const Sophie = () =>
+const Sophie = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -23,16 +25,16 @@ const Sophie = () =>
             <Row>
                 <Col className="Release-left">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Flauta por Gabriel Vaz Duque
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de JP Vieira e Ricardo Marlière
-                        <br/>Percussão por Gustavo Campos
-                        <br/>Violão por Ricardo Marlière
-                        <br/>Voz de apoio de Hugo Moutinho
-                        <br/>Voz de JP Vieira
-                        <br/>Órgão por Arthur Damásio
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("fla") } Gabriel Vaz Duque
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } JP Vieira e Ricardo Marlière
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("v12") } Ricardo Marlière
+                        <br/>{ t("back") } Hugo Moutinho
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("org") } Arthur Damásio
                     </div>
 
                     <div className="Release-quote">
@@ -67,5 +69,10 @@ const Sophie = () =>
     );
 };
 
-export default Sophie;
+Sophie.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Sophie);
 

@@ -1,7 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { withTranslation } from "react-i18next";
 import App from "../components/App";
 
-const Biography = () =>
+const Biography = ({ t }) =>
 {
     return (
         <App>
@@ -12,4 +14,10 @@ const Biography = () =>
     );
 };
 
-export default Biography;
+Biography.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Biography);
+

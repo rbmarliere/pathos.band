@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const EOS = () =>
+const EOS = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -25,18 +27,18 @@ const EOS = () =>
             <Row>
                 <Col xs="5" className="Release-left">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Concebida por Ricardo Marlière
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de Ricardo Marlière e JP Vieira
-                        <br/>Mellotron por Luiz Andrès
-                        <br/>Percussão por Álvaro Moutinho
-                        <br/>Piano elétrico por Luiz Andrès
-                        <br/>Sintetizadores por Luiz Andrès
-                        <br/>Voz de JP Vieira
-                        <br/>Vozes de apoio de Hugo Moutinho e Ricardo Marlière
-                        <br/>Órgão por Luiz Andrès
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("conc") } Ricardo Marlière
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Ricardo Marlière e JP Vieira
+                        <br/>{ t("mello") } Luiz Andrès
+                        <br/>{ t("perc") } Álvaro Moutinho
+                        <br/>{ t("rhodes") } Luiz Andrès
+                        <br/>{ t("synth") } Luiz Andrès
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("back") } Hugo Moutinho e Ricardo Marlière
+                        <br/>{ t("org") } Luiz Andrès
                     </div>
 
                     <div className="Release-quote">
@@ -75,5 +77,10 @@ const EOS = () =>
     );
 };
 
-export default EOS;
+EOS.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(EOS);
 

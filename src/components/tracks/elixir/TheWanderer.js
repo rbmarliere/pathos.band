@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const TheWanderer = () =>
+const TheWanderer = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -48,14 +50,14 @@ const TheWanderer = () =>
 
                 <Col className="Release-right">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de Herman Faulstich e Ricardo Marlière
-                        <br/>Percussão por Gustavo Campos
-                        <br/>Piano por Arthur Damásio
-                        <br/>Voz de Apoio de Hugo Moutinho
-                        <br/>Voz de JP Vieira
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Herman Faulstich e Ricardo Marlière
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("piano") } Arthur Damásio
+                        <br/>{ t("back") } Hugo Moutinho
+                        <br/>{ t("vox") } JP Vieira
                     </div>
 
                     <div className="Release-quote">
@@ -67,5 +69,10 @@ const TheWanderer = () =>
     );
 };
 
-export default TheWanderer;
+TheWanderer.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(TheWanderer);
 

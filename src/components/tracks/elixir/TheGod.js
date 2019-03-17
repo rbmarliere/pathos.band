@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const TheGod = () =>
+const TheGod = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -37,8 +39,8 @@ const TheGod = () =>
                     <br/>
                     <br/><i>Act III – The Hanged Man</i>
                     <div className="Release-quote">
-                        <br/>&quot;My father, why hast thou forsaken me?&quot;
-                        <br/><a href="https://www.bibliacatolica.com.br/biblia-ave-maria/sao-mateus/27/46/">São Mateus</a>
+                        &quot;My father, why hast thou forsaken me?&quot;
+                        <br/><a href={ t("mattlink") }>{ t("matt") }</a>
                     </div>
                     Look who is here
                     <br/>Hanging out cold
@@ -49,14 +51,14 @@ const TheGod = () =>
 
                 <Col className="Release-right">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de Ricardo Marlière
-                        <br/>Percussão por Gustavo Campos
-                        <br/>Voz de JP Vieira
-                        <br/>Voz de apoio de Hugo Moutinho
-                        <br/>Sintetizador por Arthur Damásio
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Ricardo Marlière
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("back") } Hugo Moutinho
+                        <br/>{ t("synth") } Arthur Damásio
                     </div>
 
                     <div className="Release-quote">
@@ -68,5 +70,10 @@ const TheGod = () =>
     );
 };
 
-export default TheGod;
+TheGod.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(TheGod);
 

@@ -1,5 +1,61 @@
 {
-    "pathos": "Pathos é uma banda independente de Minas Gerais, formada em 2014 e composta por Hugo Moutinho, JP Vieira, Lucas Guida, Luiz Andrès e Ricardo Marlière."
+    "pathos": "Pathos é uma banda independente de Minas Gerais, formada em 2014 e composta por Hugo Moutinho, JP Vieira, Lucas Guida, Luiz Andrès e Ricardo Marlière.",
+    "p1": "páthos",
+    "p2": "/'paθɔs/",
+    "def1" : "qualidade no escrever, no falar, no musicar ou na representação artística (e, p.ext., em fatos, circunstâncias, pessoas) que estimula o sentimento de piedade ou a tristeza; poder de tocar o sentimento da melancolia ou o da ternura; caráter ou influência tocante ou patética.",
+    "def2" : "na experiência do espectador, leitor etc., sentimento de dó, compaixão ou empatia criados por essa qualidade do texto, da música, da representação etc.",
+    "def3" : "esp. na antiga arte grega, qualidade do que é transiente ou emocional (p.opos. ao permanente ou ideal).",
+    "def4" : "na retórica de Aristóteles, pathos, ethos e logos são os três pilares fundamentais. Ethos apela para ética, pathos ao sentimento ou às emoções, e logos para a lógica.",
+
+    "elx1": "Lançado no dia 6 de Agosto de 2015",
+    "elx2": "Gravado ao vivo no Estúdio Verde na cidade de Belo Horizonte nos dias 21 e 22 de Fevereiro de 2015",
+    "elx3": "Engenheiro de Áudio: Arthur Damásio",
+    "elx4": "Gravações de flauta feitas no Estúdio Immaginaria em Juiz de Fora no dia 2 de Julho de 2015",
+    "elx5": "Engenheiro de Áudio: Vinícius Faza",
+    "elx6": "Mixado por Arthur Damásio",
+    "elx7": "Masterizado por César Santos",
+    "elx8": "Produção Musical por Arthur Damásio e Pathos",
+    "elx9": "Produtor Executivo: Ricardo Marlière",
+    "elx10": "Arte por Herman Faulstich",
+    "elx11": "Todas as músicas por Pathos",
+
+    "rap1": "Lançado no dia 20 de Março de 2019",
+    "rap2": "Gravado no Sonastério na cidade de Belo Horizonte nos dias 18 a 22 de Julho de 2018",
+    "rap3": "Participações especiais gravadas no Moutinho&apos;s Estúdio em Juiz de Fora em Dezembro de 2018 e Janeiro de 2019",
+    "rap4": "Engenheiro de Áudio: Arthur Damásio",
+    "rap5": "Mixado por Arthur Damásio",
+    "rap6": "Masterizado por Brendan Duffey",
+    "rap7": "Produção Musical por Arthur Damásio e Pathos",
+    "rap8": "Produtor Executivo: Ricardo Marlière",
+    "rap9": "Arte por Herman Faulstich",
+    "rap10": "Todas as músicas por Pathos",
+
+    "back": "Vozes de Apoio de",
+    "batera": "Bateria por",
+    "bx": "Baixo por",
+    "conc": "Concepção de",
+    "fla": "Flauta por",
+    "gtr": "Guitarra por",
+    "mello": "Mellotron por",
+    "nylon": "Violão de Nylon",
+    "org": "Órgão por",
+    "perc": "Percussão por",
+    "piano": "Piano por",
+    "rhodes": "Piano Elétrico por",
+    "sax": "Saxofone por",
+    "synth": "Sintetizadores por",
+    "talk": "Framento de Fala de",
+    "tromp": "Trompete por",
+    "txt": "Letra de",
+    "v12": "Violão de 12 por",
+    "violao": "Violão de Aço",
+    "vox": "Voz de",
+
+    "matt": "Mateus",
+    "mattlink": "https://www.bibliacatolica.com.br/biblia-ave-maria/sao-mateus/27/46/",
+
+    "eccl": "Eclesiástico",
+    "eccln": "https://www.bibliacatolica.com.br/biblia-ave-maria/eclesiastico/27/12/"
 
 }
 

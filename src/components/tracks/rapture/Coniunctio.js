@@ -1,10 +1,12 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 import {
     Col,
     Row
 } from "reactstrap";
 
-const Coniunctio = () =>
+const Coniunctio = ({ t }) =>
 {
     return (
         <div className="Release-tracks">
@@ -23,18 +25,18 @@ const Coniunctio = () =>
             <Row>
                 <Col xs="5" className="Release-left">
                     <div className="Release-track-credits">
-                        Baixo por Lucas Guida
-                        <br/>Bateria por Hugo Moutinho
-                        <br/>Concebida por Hugo Moutinho
-                        <br/>Guitarra elétrica por Ricardo Marlière
-                        <br/>Letra de JP Vieira
-                        <br/>Percussão por Álvaro Moutinho
-                        <br/>Piano elétrico por Luiz Andrès
-                        <br/>Violão de 12 por Arthur Damásio
-                        <br/>Violão de nylon por Luiz Andrès
-                        <br/>Voz de JP Vieira
-                        <br/>Vozes de apoio de Lorena Fernandes e Pathos
-                        <br/>Órgão por Luiz Andrès
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("conc") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } JP Vieira
+                        <br/>{ t("perc") } Álvaro Moutinho
+                        <br/>{ t("rhodes") } Luiz Andrès
+                        <br/>{ t("v12") } Arthur Damásio
+                        <br/>{ t("nylon") } Luiz Andrès
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("back") } Lorena Fernandes e Pathos
+                        <br/>{ t("org") } Luiz Andrès
                     </div>
                 </Col>
 
@@ -65,7 +67,7 @@ const Coniunctio = () =>
                     <br/>
                     <div className="Release-quote">
                         <br/>&quot;Sapiens sicut sol permanet, stultus autem sicut luna mutatur&quot;
-                        <br/><a href="https://www.bibliacatolica.com.br/biblia-ave-maria/eclesiastico/27/12/">Eclesiástico</a>
+                        <br/><a href={ t("eccln") }>{ t("eccl") }</a>
                         <br/>&quot;Pulchra ut luna, electa ut sol&quot;
                         <br/><a href="https://pt.wikipedia.org/wiki/Aurora_Consurgens_(livro)">Aurora Consurgens</a>
                     </div>
@@ -83,5 +85,10 @@ const Coniunctio = () =>
     );
 };
 
-export default Coniunctio;
+Coniunctio.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Coniunctio);
 

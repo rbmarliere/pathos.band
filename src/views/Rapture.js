@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { withTranslation } from "react-i18next";
 import App from "../components/App";
 import Gallery from "../components/Gallery";
 import {
@@ -57,7 +59,7 @@ const photos = [
     { src: p18, width: 15, height: 9 }
 ];
 
-const Rapture = () =>
+const Rapture = ({ t }) =>
 {
     return (
         <App>
@@ -73,29 +75,23 @@ const Rapture = () =>
                 </div>
 
                 <hr/>
-
                 <Row>
-                    {/*<Col className="Release-left">
-                         <p> &quot&quot; </p> <a href="">author</a> <br/><br/>
-                    </Col>*/}
-
                     <Col className="Release-right">
                         <div className="Release-credits">
-                            Lançado no dia 20 de Março de 2019
+                            { t("rap1") } <br/>
                             <br/>
-                            <br/>Gravado no Sonastério na cidade de Belo Horizonte nos dias 18 a 22 de Julho de 2018
-                            <br/>Participações especiais gravadas no Moutinho&apos;s Estúdio em Juiz de Fora em Dezembro de 2018 e Janeiro de 2019
-                            <br/>Engenheiro de áudio: Arthur Damásio
+                            { t("rap2") } <br/>
+                            { t("rap3") } <br/>
+                            { t("rap4") } <br/>
+                            { t("rap5") } <br/>
                             <br/>
-                            <br/>Mixado por Arthur Damásio
-                            <br/>Masterizado por Brendan Duffey
+                            { t("rap6") } <br/>
+                            { t("rap7") } <br/>
                             <br/>
-                            <br/>Produção musical por Arthur Damásio e Pathos
-                            <br/>Produtor executivo: Ricardo Marlière
+                            { t("rap8") } <br/>
+                            { t("rap9") } <br/>
                             <br/>
-                            <br/>Arte por Herman Faulstich
-                            <br/>
-                            <br/>Todas as músicas por Pathos
+                            { t("rap10") } <br/>
                         </div>
                     </Col>
                 </Row>
@@ -116,7 +112,6 @@ const Rapture = () =>
                 &nbsp;
 
                 <hr/>
-
                 <Gallery photos={ photos } />
 
             </div>
@@ -124,4 +119,10 @@ const Rapture = () =>
     );
 };
 
-export default Rapture;
+Rapture.propTypes =
+{
+    t: PropTypes.func.isRequired
+};
+
+export default withTranslation()(Rapture);
+
