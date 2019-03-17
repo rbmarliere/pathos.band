@@ -10,7 +10,7 @@
 .Release-title {
     text-align: center;
     font-family: "PunkRocker";
-    font-size: 7em;
+    font-size: 6em;
 }
 
 .Release-track-title {
@@ -22,6 +22,8 @@
 .Release-credits {
     text-align: center;
     font-family: "Courier New";
+    letter-spacing: -1px;
+    line-height: 1.2em;
 }
 
 .Release-player {
@@ -42,10 +44,12 @@
 
 .Release-left {
     text-align: right;
+    padding: 3px;
 }
 
 .Release-right {
     text-align: left;
+    padding: 3px;
 }
 
 .Release-track-credits {
