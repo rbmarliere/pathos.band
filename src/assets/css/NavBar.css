@@ -1,12 +1,13 @@
 .NavBar > nav{
+    padding: 12px;
     width: 100%;
-    margin: 0;
-    top: 0;
+    max-width: 1680px;
     background-color: #171f2d !important;
     color: #ccc;
 }
 
 .NavBar-fixed {
+    top: 0;
     position: fixed !important;
     z-index: 1;
 }

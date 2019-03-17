@@ -38,6 +38,10 @@ const Coniunctio = () =>
                     </div>
 
                     <div className="Release-quote">
+                        <br/><br/>
+                        &quot;Sapiens sicut sol permanet, stultus autem sicut luna mutatur
+                        <br/>Pulchra ut luna, electa ut sol&quot;
+
                     </div>
                 </Col>
 
