@@ -80,10 +80,6 @@ class NavBar extends Component
                                 <Link className="NavBar-link nav-link" to="/biography"> Biografia </Link>
                             </NavItem>
 
-                            <NavItem>
-                                <a className="NavBar-link nav-link" href="mailto:pathos.sound@gmail.com"> Contato </a>
-                            </NavItem>
-
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
                                     <FontAwesomeIcon icon={ ["fas", "language"] } size="1x"/>&nbsp;

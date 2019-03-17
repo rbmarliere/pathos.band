@@ -39,6 +39,7 @@ const Footer = () =>
                     <Row className="pt-3 pb-3">
                         <Col xs="12">
                             &copy; Pathos. All Rights Reserved.
+                            <br/><a className="Footer-contact" href="mailto:pathos.sound@gmail.com">pathos.sound@gmail.com</a>
                         </Col>
                     </Row>
                 </Container>

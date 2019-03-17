@@ -15,3 +15,13 @@ Footer {
     font-family: monospace;
 }
 
+.Footer-contact {
+    font-family: Helvetica;
+    font-size: 0.8em;
+    color: #e7e7e7;
+}
+
+.Footer-contact:hover {
+    text-decoration: none;
+}
+
