@@ -42,6 +42,7 @@ history.listen( (location) => {
 });
 
 // views
+import Biography from "./views/Biography";
 import Elixir from "./views/Elixir";
 import Home from "./views/Home";
 import Rapture from "./views/Rapture";
@@ -54,6 +55,7 @@ ReactDOM.render(
     <Router history={ history }>
         <div>
             <Route path="/" component={Home} exact />
+            <Route path="/biography" component={Biography} exact />
             <Route path="/elixir" component={Elixir} exact />
             <Route path="/rapture" component={Rapture} exact />
         </div>

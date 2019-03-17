@@ -77,7 +77,7 @@ class NavBar extends Component
                             </NavItem>
 
                             <NavItem>
-                                <Link className="NavBar-link nav-link" to="/bio"> Biografia </Link>
+                                <Link className="NavBar-link nav-link" to="/biography"> Biografia </Link>
                             </NavItem>
 
                             <NavItem>
