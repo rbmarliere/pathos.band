@@ -44,7 +44,7 @@ const photos = [
     { src: p3, width: 12, height: 9 },
     { src: p4, width: 14, height: 11 },
     { src: p5, width: 12, height: 9 },
-    { src: p6, width: 12, height: 9 },
+    { src: p6, width: 9, height: 12 },
     { src: p7, width: 12, height: 9 },
     { src: p8, width: 12, height: 9 },
     { src: p9, width: 12, height: 9 },
