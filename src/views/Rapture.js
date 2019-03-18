@@ -76,23 +76,22 @@ const Rapture = ({ t }) =>
 
                 <hr/>
                 <Row>
-                    <Col className="Release-right">
-                        <div className="Release-credits">
-                            { t("rap1") } <br/>
-                            <br/>
-                            { t("rap2") } <br/>
-                            { t("rap3") } <br/>
-                            { t("rap4") } <br/>
-                            { t("rap5") } <br/>
-                            <br/>
-                            { t("rap6") } <br/>
-                            { t("rap7") } <br/>
-                            <br/>
-                            { t("rap8") } <br/>
-                            { t("rap9") } <br/>
-                            <br/>
-                            { t("rap10") } <br/>
-                        </div>
+                    <Col className="Release-credits">
+                        { t("rap1") } <br/>
+                        <br/>
+                        { t("rap2") } <br/>
+                        { t("rap3") } <br/>
+                        { t("rap4") } <br/>
+                        <br/>
+                        { t("rap5") } <br/>
+                        { t("rap6") } <br/>
+                        <br/>
+                        { t("rap7") } <br/>
+                        { t("rap8") } <br/>
+                        <br/>
+                        { t("rap9") } <br/>
+                        <br/>
+                        { t("rap10") } <br/>
                     </Col>
                 </Row>
 

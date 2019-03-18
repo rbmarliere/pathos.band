@@ -92,6 +92,7 @@ const Elixir = ({ t }) =>
                         { t("elx9") } <br/>
                         <br/>
                         { t("elx10") } <br/>
+                        <br/>
                         { t("elx11") } <br/>
                     </Col>
                 </Row>

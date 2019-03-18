@@ -35,8 +35,8 @@ const Portal = ({ t }) =>
 
                 <Col className="Release-right">
                     <div className="Release-quote">
-                        &quot;Nada conheça! Todos os caminhos são da inocência. A pura loucura é a chave da iniciação. Silêncio quebra na raptura.&quot;
-                        <br/>O Livro de Thoth
+                        &quot;{ t("fool") }&quot;
+                        <br/><a target="_tab" href="https://www.bibliotecapleyades.net/crowley/libro_thoth08.htm#GENERAL_CHARACTERS_OF_THE_TRUMPS_AS_THEY_APPEAR_IN_USE__">{ t("thoth") }</a>
                     </div>
                 </Col>
             </Row>
