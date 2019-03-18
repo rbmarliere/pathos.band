@@ -12,14 +12,14 @@ class App extends Component
         super(props);
         this.handleBannerLoaded = this.handleBannerLoaded.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleNavToggle = this.handleNavToggle.bind(this);
         this.state = { bannerLoaded: false, scroll: 0 };
     }
 
     handleBannerLoaded()
     {
         const banner = document.querySelector(".Banner");
-        const nav = document.querySelector("nav");
-        this.setState({ navtop: banner.offsetHeight, height: nav.offsetHeight });
+        this.setState({ navtop: banner.offsetHeight });
     }
 
     handleScroll()
@@ -27,11 +27,19 @@ class App extends Component
         this.setState({ scroll: window.scrollY });
     }
 
+    handleNavToggle()
+    {
+        const height = document.querySelector("nav").offsetHeight;
+        if ( height !== this.state.height )
+            this.setState({ height: height });
+    }
+
     componentDidMount()
     {
         window.scrollTo(0, 0);
         window.addEventListener("scroll", this.handleScroll);
         window.addEventListener("resize", this.handleBannerLoaded);
+        this.handleNavToggle();
     }
 
     componentDidUpdate()
@@ -46,7 +54,7 @@ class App extends Component
         return (
             <div className="App">
                 <Banner onLoad={ this.handleBannerLoaded.bind(this) }/>
-                <NavBar scroll={ this.state.scroll } navtop={ this.state.navtop }/>
+                <NavBar scroll={ this.state.scroll } navtop={ this.state.navtop } onToggle={ this.handleNavToggle.bind(this) } />
                 <div className="Content">
                     <Container>
                         { this.props.children }

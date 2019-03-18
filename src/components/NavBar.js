@@ -49,7 +49,7 @@ class NavBar extends Component
 
                     <NavbarToggler onClick={ this.toggle } />
 
-                    <Collapse isOpen={ this.state.isOpen } navbar>
+                    <Collapse navbar isOpen={ this.state.isOpen } onEntered={ () => { this.props.onToggle(); } } onExited={ () => { this.props.onToggle(); } }>
                         <Nav className="ml-auto" navbar>
 
                             <UncontrolledDropdown nav inNavbar className="NavBar-link">
