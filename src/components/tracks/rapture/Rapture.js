@@ -77,7 +77,7 @@ const Rapture = ({ t }) =>
                         <br/>{ t("batera") } Hugo Moutinho
                         <br/>{ t("conc") } Ricardo Marlière
                         <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } Ricardo Marlière e JP Vieira
+                        <br/>{ t("txt") } Ricardo Marlière { t("and") } JP Vieira
                         <br/>{ t("perc") } Álvaro Moutinho
                         <br/>{ t("rhodes") } Luiz Andrès
                         <br/>{ t("sax") } Caetano Brasil

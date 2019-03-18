@@ -31,13 +31,13 @@ const EOS = ({ t }) =>
                         <br/>{ t("batera") } Hugo Moutinho
                         <br/>{ t("conc") } Ricardo Marlière
                         <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } Ricardo Marlière e JP Vieira
+                        <br/>{ t("txt") } Ricardo Marlière { t("and") } JP Vieira
                         <br/>{ t("mello") } Luiz Andrès
                         <br/>{ t("perc") } Álvaro Moutinho
                         <br/>{ t("rhodes") } Luiz Andrès
                         <br/>{ t("synth") } Luiz Andrès
                         <br/>{ t("vox") } JP Vieira
-                        <br/>{ t("back") } Hugo Moutinho e Ricardo Marlière
+                        <br/>{ t("back") } Hugo Moutinho { t("and") } Ricardo Marlière
                         <br/>{ t("org") } Luiz Andrès
                     </div>
 

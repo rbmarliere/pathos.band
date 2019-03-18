@@ -29,10 +29,10 @@ const Eve = ({ t }) =>
                         <br/>{ t("batera") } Hugo Moutinho
                         <br/>{ t("conc") } Ricardo Marlière
                         <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } Ricardo Marlière e JP Vieira
+                        <br/>{ t("txt") } Ricardo Marlière { t("and") } JP Vieira
                         <br/>{ t("perc") } Álvaro Moutinho
                         <br/>{ t("rhodes") } Luiz Andrès
-                        <br/>{ t("v12") } Luiz Andrès e Ricardo Marlière
+                        <br/>{ t("v12") } Luiz Andrès { t("and") } Ricardo Marlière
                         <br/>{ t("violao") } Ricardo Marlière
                         <br/>{ t("vox") } JP Vieira
                         <br/>{ t("back") } Lorena Fernandes

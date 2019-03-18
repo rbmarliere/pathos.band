@@ -53,7 +53,7 @@ const TheWanderer = ({ t }) =>
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho
                         <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } Herman Faulstich e Ricardo Marlière
+                        <br/>{ t("txt") } Herman Faulstich { t("and") } Ricardo Marlière
                         <br/>{ t("perc") } Gustavo Campos
                         <br/>{ t("piano") } Arthur Damásio
                         <br/>{ t("back") } Hugo Moutinho

@@ -54,7 +54,7 @@ const Gods = ({ t }) =>
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho
-                        <br/>{ t("conc") } JP Vieira e Lucas Guida
+                        <br/>{ t("conc") } JP Vieira { t("and") } Lucas Guida
                         <br/>{ t("gtr") } Ricardo Marlière
                         <br/>{ t("txt") } JP Vieira
                         <br/>{ t("perc") } Álvaro Moutinho

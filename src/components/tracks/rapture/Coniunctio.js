@@ -35,7 +35,7 @@ const Coniunctio = ({ t }) =>
                         <br/>{ t("v12") } Arthur Damásio
                         <br/>{ t("nylon") } Luiz Andrès
                         <br/>{ t("vox") } JP Vieira
-                        <br/>{ t("back") } Lorena Fernandes e Pathos
+                        <br/>{ t("back") } Lorena Fernandes { t("and") } Pathos
                         <br/>{ t("org") } Luiz Andrès
                     </div>
                 </Col>

@@ -29,7 +29,7 @@ const Sophie = ({ t }) =>
                         <br/>{ t("batera") } Hugo Moutinho
                         <br/>{ t("fla") } Gabriel Vaz Duque
                         <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } JP Vieira e Ricardo Marlière
+                        <br/>{ t("txt") } JP Vieira { t("and") } Ricardo Marlière
                         <br/>{ t("perc") } Gustavo Campos
                         <br/>{ t("v12") } Ricardo Marlière
                         <br/>{ t("back") } Hugo Moutinho

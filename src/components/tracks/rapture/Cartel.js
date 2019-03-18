@@ -59,7 +59,7 @@ const Cartel = ({ t }) =>
                         <br/>{ t("perc") } Álvaro Moutinho
                         <br/>{ t("rhodes") } Luiz Andrès
                         <br/>{ t("synth") } Luiz Andrès
-                        <br/>{ t("v12") } Luiz Andrès e Ricardo Marlière
+                        <br/>{ t("v12") } Luiz Andrès { t("and") } Ricardo Marlière
                         <br/>{ t("violao") } Ricardo Marlière
                         <br/>{ t("vox") } JP Vieira
                         <br/>{ t("back") } Hugo Moutinho
