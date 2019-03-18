@@ -82,16 +82,17 @@ const Rapture = ({ t }) =>
                         { t("rap2") } <br/>
                         { t("rap3") } <br/>
                         { t("rap4") } <br/>
-                        <br/>
                         { t("rap5") } <br/>
+                        <br/>
                         { t("rap6") } <br/>
-                        <br/>
                         { t("rap7") } <br/>
-                        { t("rap8") } <br/>
                         <br/>
+                        { t("rap8") } <br/>
                         { t("rap9") } <br/>
                         <br/>
                         { t("rap10") } <br/>
+                        <br/>
+                        { t("rap11") } <br/>
                     </Col>
                 </Row>
 
