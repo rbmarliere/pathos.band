@@ -58,6 +58,7 @@ const TheWanderer = ({ t }) =>
                         <br/>{ t("piano") } Arthur Damásio
                         <br/>{ t("back") } Hugo Moutinho
                         <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("org") } Arthur Damásio
                     </div>
 
                     <div className="Release-quote">
