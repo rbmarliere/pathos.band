@@ -40,7 +40,7 @@ const Footer = ({ t }) =>
                 <Container className="container-fluid" expand="md">
                     <Row className="pt-3 pb-3">
                         <Col xs="12">
-                            &copy; Pathos. { t("footer") }.
+                            &copy; { (new Date()).getFullYear() } Pathos. { t("footer") }.
                             <br/><a target="_tab" className="Footer-contact" href="mailto:pathos.sound@gmail.com">pathos.sound@gmail.com</a>
                         </Col>
                     </Row>
