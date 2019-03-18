@@ -17,7 +17,7 @@ const Eve = ({ t }) =>
             &nbsp;
 
             <div className="Release-player">
-                <iframe title="Eve" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1604725837/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
+                <iframe title="Eve" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1604725837/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
             </div>
 
             &nbsp;

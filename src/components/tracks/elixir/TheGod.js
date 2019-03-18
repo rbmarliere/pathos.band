@@ -17,7 +17,7 @@ const TheGod = ({ t }) =>
             &nbsp;
 
             <div className="Release-player">
-                <iframe title="TheGod" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=2863622390/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
+                <iframe title="TheGod" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=2863622390/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
             </div>
 
             &nbsp;
@@ -40,7 +40,7 @@ const TheGod = ({ t }) =>
                     <br/><i>Act III – The Hanged Man</i>
                     <div className="Release-quote">
                         &quot;My father, why hast thou forsaken me?&quot;
-                        <br/><a href={ t("mattlink") }>{ t("matt") }</a>
+                        <br/><a target="_tab" href={ t("mattlink") }>{ t("matt") }</a>
                     </div>
                     Look who is here
                     <br/>Hanging out cold

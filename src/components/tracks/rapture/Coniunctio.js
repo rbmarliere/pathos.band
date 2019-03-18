@@ -17,7 +17,7 @@ const Coniunctio = ({ t }) =>
             &nbsp;
 
             <div className="Release-player">
-                <iframe title="Coniunctio" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1116546309/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
+                <iframe title="Coniunctio" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1116546309/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
             </div>
 
             &nbsp;
@@ -67,9 +67,9 @@ const Coniunctio = ({ t }) =>
                     <br/>
                     <div className="Release-quote">
                         <br/>&quot;Sapiens sicut sol permanet, stultus autem sicut luna mutatur&quot;
-                        <br/><a href={ t("eccln") }>{ t("eccl") }</a>
+                        <br/><a target="_tab" href={ t("eccln") }>{ t("eccl") }</a>
                         <br/>&quot;Pulchra ut luna, electa ut sol&quot;
-                        <br/><a href="https://pt.wikipedia.org/wiki/Aurora_Consurgens_(livro)">Aurora Consurgens</a>
+                        <br/><a target="_tab" href={ t("aurora") }>Aurora Consurgens</a>
                     </div>
                     <br/>We swam so much
                     <br/>To die on the shore
