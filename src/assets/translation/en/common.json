@@ -1,4 +1,9 @@
 {
+    "footer": "All rights reserved",
+
+    "nav1": "Music",
+    "nav2": "Biography",
+
     "pathos": "Pathos is an independent band from Minas Gerais, formed in 2014 and composed of Hugo Moutinho, JP Vieira, Lucas Guida, Luiz Andrès and Ricardo Marlière.",
     "p1": "pa·thos",
     "p2": "/'pā.THäs/",
@@ -6,32 +11,6 @@
     "def2": "in the experience of the spectator, reader, etc., a feeling of pity, compassion or empathy created by this quality of the text, music, representation, etc.",
     "def3": "esp. in ancient Greek art, quality of what is transient or emotional (eg to the permanent or ideal).",
     "def4": "in Aristotle's rhetoric, pathos, ethos and logos are the three fundamental pillars. Ethos appeals to ethics, pathos to feeling or to emotions, and logos to logic.",
-
-    "elx1" : "Released on August 6, 2015",
-    "elx2" : "Recorded live at Estúdio Verde in the city of Belo Horizonte on 21 and 22 February 2015",
-    "elx3" : "Audio Engineer: Arthur Damásio",
-    "elx4" : "Flute recorded at Immaginaria Studio in Juiz de Fora on July 2, 2015",
-    "elx5" : "Audio Engineer: Vinícius Faza",
-    "elx6" : "Mixed by Arthur Damásio",
-    "elx7" : "Mastered by César Santos",
-    "elx8" : "Musical Production by Arthur Damásio and Pathos",
-    "elx9" : "Executive Producer: Ricardo Marlière",
-    "elx10" : "Art by Herman Faulstich",
-    "elx11" : "All songs by Pathos",
-
-    "fool": "Know naught! All ways are lawful to innocence. Pure folly is the key to initiation. Silence breaks into rapture.",
-    "thoth": "The Book of Thoth",
-
-    "rap1": "Released on March 20, 2019",
-    "rap2": "Recorded Live at Sonásterio, located in Belo Horizonte (Minas Gerais - Brazil), from July 18th to the 22nd of 2018",
-    "rap3": "Special guests recorded at Moutinho`s Studio, located in Juiz de Fora (MG - Brazil), throughout December 2018 and January 2019",
-    "rap4": "Audio Engineer: Arthur Damásio",
-    "rap5": "Mixed by Arthur Damásio",
-    "rap6": "Mastered by Brendan Duffey",
-    "rap7": "Musical Production by Arthur Damásio e Pathos",
-    "rap8": "Executive Producer: Ricardo Marlière",
-    "rap9": "Art by Herman Faulstich",
-    "rap10" : "All songs by Pathos",
 
     "back": "Backing Vocals by",
     "batera": "Drums by",
@@ -54,17 +33,45 @@
     "violao": "Acoustic Guitar by",
     "vox": "Vocals by",
 
+    "elx1" : "Released on August 6, 2015",
+    "elx2" : "Recorded live at Estúdio Verde in the city of Belo Horizonte on 21 and 22 February 2015",
+    "elx3" : "Audio Engineer: Arthur Damásio",
+    "elx4" : "Flute recorded at Immaginaria Studio in Juiz de Fora on July 2, 2015",
+    "elx5" : "Audio Engineer: Vinícius Faza",
+    "elx6" : "Mixed by Arthur Damásio",
+    "elx7" : "Mastered by César Santos",
+    "elx8" : "Musical Production by Arthur Damásio and Pathos",
+    "elx9" : "Executive Producer: Ricardo Marlière",
+    "elx10" : "Art by Herman Faulstich",
+    "elx11" : "All songs by Pathos",
+
+    "fool": "Know naught! All ways are lawful to innocence. Pure folly is the key to initiation. Silence breaks into rapture.",
+    "thoth": "The Book of Thoth",
+
+    "dan": "From there, the next songs would be like many other portals, like the one that Herman Hesse talks about while describing the Theater where his character is.",
+    "paul": "Elixir by Pathos more than just riff rock; it has to be called progressive stoner rock.",
+    "fdj": "Elixir is, on the whole, a stunning album full of little twists and turns that'll have you discovering something new in its grooves every time you play it.",
+
+    "rap1": "Released on March 20, 2019",
+    "rap2": "Recorded Live at Sonásterio, located in Belo Horizonte (Minas Gerais - Brazil), from July 18th to the 22nd of 2018",
+    "rap3": "Special guests recorded at Moutinho`s Studio, located in Juiz de Fora (MG - Brazil), throughout December 2018 and January 2019",
+    "rap4": "Audio Engineer: Arthur Damásio",
+    "rap5": "Mixed by Arthur Damásio",
+    "rap6": "Mastered by Brendan Duffey",
+    "rap7": "Musical Production by Arthur Damásio e Pathos",
+    "rap8": "Executive Producer: Ricardo Marlière",
+    "rap9": "Art by Herman Faulstich",
+    "rap10" : "All songs by Pathos",
+
+    "shoes": "https://www.bibliacatolica.com.br/king-james-version/exodus/3/5/",
+    "holy": "Exodus",
+
     "matt": "Matthew",
     "mattlink": "https://www.biblegateway.com/passage/?search=Matthew+27%3A46&version=KJV",
 
     "eccl" : "Ecclesiates",
     "eccln": "https://www.bibliacatolica.com.br/king-james-version/ecclesiasticus/27/11/",
-    "aurora": "https://en.wikipedia.org/wiki/Aurora_consurgens",
-
-    "footer": "All rights reserved",
-
-    "nav1": "Music",
-    "nav2": "Biography"
+    "aurora": "https://en.wikipedia.org/wiki/Aurora_consurgens"
 
 }
 

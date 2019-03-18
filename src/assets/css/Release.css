@@ -20,10 +20,11 @@
 }
 
 .Release-credits {
+    font-size: 1.1em;
     text-align: center;
     font-family: "Courier New";
     letter-spacing: -1px;
-    line-height: 1.2em;
+    line-height: 1em;
 }
 
 .Release-player {

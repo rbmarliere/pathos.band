@@ -47,10 +47,12 @@ const Rapture = ({ t }) =>
                     <br/>With a hole in the bone
                     <br/>It’s where the smoke comes from
                     <br/>
-                    <br/>Do not come any closer
-                    <br/>Take off your shoes
-                    <br/>For the place where you’re standing is holy ground
-                    <br/>
+                    <div className="Release-quote">
+                        <br/>&quot;Do not come any closer
+                        <br/>Take off your shoes
+                        <br/>For the place where you’re standing is holy ground&quot;
+                        <br/><a target="_tab" href={ t("shoes") }>{ t("holy") }</a>
+                    </div>
                     <br/>Stay a while, you know how it goes
                     <br/>Could tell you about so many great things
                     <br/>But I can’t help if you are your biggest foe
@@ -60,9 +62,12 @@ const Rapture = ({ t }) =>
                     <br/>They never thought beyond of this:
                     <br/>“He’s running towards the death kiss!”
                     <br/>
-                    <br/>Cause I drink by the eight and ninety
-                    <br/>Rules of art, they are my specialty
-                    <br/>and I make love exceeding by delicacy
+                    <div className="Release-quote">
+                        <br/>Cause I drink by the eight and ninety
+                        <br/>Rules of art, they are my specialty
+                        <br/>and I make love exceeding by delicacy
+                        <br/><a target="_tab" href="http://lib.oto-usa.org/libri/liber0031.html?num=41">AL</a>
+                    </div>
                     <br/>Still, I don’t sink!
                 </Col>
 
