@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { withTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import
@@ -17,7 +18,6 @@ import
 
 import "../assets/css/NavBar.css";
 
-import { withTranslation } from "react-i18next";
 import BR from "../assets/image/Brasil.png";
 import US from "../assets/image/USA.png";
 
@@ -52,7 +52,7 @@ class NavBar extends Component
 
                             <UncontrolledDropdown nav inNavbar className="NavBar-link">
                                 <DropdownToggle nav caret>
-                                    Música
+                                    { this.props.t("nav1") }
                                 </DropdownToggle>
 
                                 <DropdownMenu right className="NavBar-dropdown">
@@ -77,7 +77,7 @@ class NavBar extends Component
                             </NavItem>
 
                             <NavItem>
-                                <Link className="NavBar-link nav-link" to="/biography"> Biografia </Link>
+                                <Link className="NavBar-link nav-link" to="/biography"> { this.props.t("nav2") } </Link>
                             </NavItem>
 
                             <UncontrolledDropdown nav inNavbar>
@@ -108,7 +108,9 @@ class NavBar extends Component
 NavBar.propTypes =
 {
     scroll: PropTypes.number.isRequired,
-    navtop: PropTypes.number
+    navtop: PropTypes.number,
+    t: PropTypes.func.isRequired,
+    i18n: PropTypes.object.isRequired
 };
 
 export default withTranslation()(NavBar);

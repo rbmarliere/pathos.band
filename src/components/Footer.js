@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { withTranslation } from "react-i18next";
 import {
     Col,
     Container,
@@ -7,7 +9,7 @@ import {
 import "../assets/css/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Footer = () =>
+const Footer = ({ t }) =>
 {
     return (
         <div className="Footer">
@@ -38,7 +40,7 @@ const Footer = () =>
                 <Container className="container-fluid" expand="md">
                     <Row className="pt-3 pb-3">
                         <Col xs="12">
-                            &copy; Pathos. All Rights Reserved.
+                            &copy; Pathos. { t("footer") }.
                             <br/><a className="Footer-contact" href="mailto:pathos.sound@gmail.com">pathos.sound@gmail.com</a>
                         </Col>
                     </Row>
@@ -48,5 +50,11 @@ const Footer = () =>
     );
 };
 
-export default Footer;
+Footer.propTypes =
+{
+    t: PropTypes.func.isRequired,
+    i18n: PropTypes.object.isRequired
+};
+
+export default withTranslation()(Footer);
 

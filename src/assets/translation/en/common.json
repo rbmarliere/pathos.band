@@ -55,6 +55,12 @@
     "mattlink": "https://www.biblegateway.com/passage/?search=Matthew+27%3A46&version=KJV",
 
     "eccl" : "Ecclesiates",
-    "eccln": "https://www.bibliacatolica.com.br/king-james-version/ecclesiasticus/27/11/"
+    "eccln": "https://www.bibliacatolica.com.br/king-james-version/ecclesiasticus/27/11/",
+
+    "footer": "All rights reserved",
+
+    "nav1": "Music",
+    "nav2": "Biography"
+
 }
 

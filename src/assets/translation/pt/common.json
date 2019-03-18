@@ -55,7 +55,12 @@
     "mattlink": "https://www.bibliacatolica.com.br/biblia-ave-maria/sao-mateus/27/46/",
 
     "eccl": "Eclesiástico",
-    "eccln": "https://www.bibliacatolica.com.br/biblia-ave-maria/eclesiastico/27/12/"
+    "eccln": "https://www.bibliacatolica.com.br/biblia-ave-maria/eclesiastico/27/12/",
+
+    "footer": "Todos os direitos reservados",
+
+    "nav1": "Música",
+    "nav2": "Biografia"
 
 }
 
