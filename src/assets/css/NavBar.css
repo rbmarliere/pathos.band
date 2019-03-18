@@ -27,6 +27,10 @@
     font-size: 1.2em;
 }
 
+.NavBar-link:hover {
+    text-decoration: none;
+}
+
 .NavBar-dropdown {
     background-color: #171f2d;
     border: 0;
@@ -36,18 +40,25 @@
 }
 
 .NavBar-dropdown-btn {
+    font-size: 0.7em;
 }
 
 .NavBar-dropdown-btn:hover {
+    text-decoration: none;
     background-color: #171f2d;
 }
 
 .NavBar-dropdown-btn-lang {
     padding: 0;
-    max-width: 48px;
 }
 
 .NavBar-dropdown-btn-lang:hover {
+    text-decoration: none;
     background-color: #171f2d;
+}
+
+.NavBar-img > img {
+    max-width: 48px;
+    height: auto;
 }
 

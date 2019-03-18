@@ -19,7 +19,7 @@ class App extends Component
     {
         const banner = document.querySelector(".Banner");
         const nav = document.querySelector("nav");
-        this.setState({ navtop: banner.offsetHeight, height: nav.offsetHeight});
+        this.setState({ navtop: banner.offsetHeight, height: nav.offsetHeight });
     }
 
     handleScroll()

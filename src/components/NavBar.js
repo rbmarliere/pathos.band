@@ -20,6 +20,8 @@ import "../assets/css/NavBar.css";
 
 import BR from "../assets/image/Brasil.png";
 import US from "../assets/image/USA.png";
+import rapture from "../assets/image/rapture/01.png";
+import elixir from "../assets/image/elixir/01.png";
 
 class NavBar extends Component
 {
@@ -56,15 +58,23 @@ class NavBar extends Component
                                 </DropdownToggle>
 
                                 <DropdownMenu right className="NavBar-dropdown">
-                                    <Link to="/rapture">
+                                    <Link to="/rapture" className="NavBar-link">
                                         <DropdownItem className="nav-link NavBar-dropdown-btn">
-                                            Rapture, 2019
+                                            <div className="NavBar-img">
+                                                <img src={ rapture } alt="" />
+                                                &nbsp;
+                                                Rapture, 2019
+                                            </div>
                                         </DropdownItem>
                                     </Link>
 
-                                    <Link to="/elixir">
-                                        <DropdownItem className="nav-link NavBar-dropdown-btn">
-                                             Elixir, 2015
+                                    <Link to="/elixir" className="NavBar-link">
+                                        <DropdownItem className="NavBar-dropdown-btn nav-link">
+                                            <div className="NavBar-img">
+                                                <img src={ elixir } alt="" />
+                                                &nbsp;
+                                                Elixir, 2015
+                                            </div>
                                         </DropdownItem>
                                     </Link>
                                 </DropdownMenu>
@@ -87,11 +97,15 @@ class NavBar extends Component
 
                                 <DropdownMenu right className="NavBar-dropdown">
                                     <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } } className="NavBar-dropdown-btn-lang">
-                                        <img src={ BR } alt="" />
+                                        <div className="NavBar-img">
+                                            <img src={ BR } alt="" />
+                                        </div>
                                     </DropdownItem>
 
                                     <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } } className="NavBar-dropdown-btn-lang">
-                                        <img src={ US } alt="" />
+                                        <div className="NavBar-img">
+                                            <img src={ US } alt="" />
+                                        </div>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
