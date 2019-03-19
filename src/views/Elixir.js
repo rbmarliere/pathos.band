@@ -67,10 +67,10 @@ const Elixir = ({ t }) =>
         <App>
             <Helmet>
                 <meta property="og:description" content="Elixir é o primeiro álbum da banda mineira Pathos, lançado no dia 5 de Agosto de 2015." />
-                <meta property="og:image" content="http://pathos.band/image/rapture.png" />
+                <meta property="og:image" content={ process.env.PUBLIC_URL + "/image/rapture.png" } />
                 <meta property="og:title" content="Elixir" />
                 <meta property="og:type" content="music.album" />
-                <meta property="og:url" content="http://pathos.band/elixir" />
+                <meta property="og:url" content={ process.env.PUBLIC_URL + "/elixir" } />
             </Helmet>
 
             <div className="Release">
