@@ -39,6 +39,7 @@ const Home = ({ t }) =>
     return (
         <App>
             <Helmet>
+                <title>Pathos</title>
                 <meta property="og:description" content="Pathos é uma banda de Minas Gerais, Brasil." />
                 <meta property="og:image" content="http://kind-elion-04c521.netlify.com/image/rapture.png" />
                 <meta property="og:title" content="Pathos" />

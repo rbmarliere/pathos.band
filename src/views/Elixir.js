@@ -66,6 +66,7 @@ const Elixir = ({ t }) =>
     return (
         <App>
             <Helmet>
+                <title>Elixir</title>
                 <meta property="og:description" content="Elixir é o primeiro álbum da banda mineira Pathos, lançado no dia 5 de Agosto de 2015." />
                 <meta property="og:image" content="http://kind-elion-04c521.netlify.com/image/rapture.png" />
                 <meta property="og:title" content="Elixir" />
