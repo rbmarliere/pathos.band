@@ -20,7 +20,7 @@ import "../assets/css/NavBar.css";
 
 import BR from "../assets/image/Brasil.png";
 import US from "../assets/image/USA.png";
-import rapture from "../assets/image/rapture/01.png";
+import rapture from "../assets/image/rapture/01.jpg";
 import elixir from "../assets/image/elixir/01.png";
 
 class NavBar extends Component

@@ -21,7 +21,7 @@ import Gods from "../components/tracks/rapture/Gods";
 import EOS from "../components/tracks/rapture/EOS";
 
 // pictures
-import p1 from "../assets/image/rapture/01.png";
+import p1 from "../assets/image/rapture/01.jpg";
 import p2 from "../assets/image/rapture/02.png";
 import p3 from "../assets/image/rapture/03.png";
 import p4 from "../assets/image/rapture/04.png";

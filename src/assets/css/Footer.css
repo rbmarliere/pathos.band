@@ -3,6 +3,8 @@ Footer {
     font-size: 16px;
     text-align: center;
     background-color: #171f2d;
+
+    box-shadow: 0px 0px 10px 10px #171f2d;
 }
 
 .Footer-link {

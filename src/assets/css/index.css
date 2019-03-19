@@ -5,12 +5,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
     max-width: 1680px;
     margin: auto !important;
+    background-color: #171f2d !important;
 }
 
 .Content {
     text-align: justify;
     padding-top: 65px;
     padding-bottom: 65px;
+    background-color: #FFF;
 }
 
 @font-face {
