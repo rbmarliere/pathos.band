@@ -76,6 +76,7 @@ const Home = ({ t }) =>
                     <Row>
                         <Col md="1"></Col>
                         <Col className="Home-quote" xs="12" md="10">
+                            <hr/>
                             <p> { t("p3") } </p>
                             <p> { t("p4") } </p>
                             <p> { t("p6") } </p>
