@@ -86,9 +86,9 @@ class NavBar extends Component
                             <NavItem>
                             </NavItem>
 
-                            <NavItem>
+                            {/*<NavItem>
                                 <Link className="NavBar-link nav-link" to="/biography"> { this.props.t("nav2") } </Link>
-                            </NavItem>
+                            </NavItem>*/}
 
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
