@@ -124,7 +124,8 @@ NavBar.propTypes =
     scroll: PropTypes.number.isRequired,
     navtop: PropTypes.number,
     t: PropTypes.func.isRequired,
-    i18n: PropTypes.object.isRequired
+    i18n: PropTypes.object.isRequired,
+    onToggle: PropTypes.func.isRequired
 };
 
 export default withTranslation()(NavBar);

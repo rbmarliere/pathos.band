@@ -1,12 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { withTranslation } from "react-i18next";
-import App from "../components/App";
-import Gallery from "../components/Gallery";
 import {
     Col,
     Row
 } from "reactstrap";
+import { Helmet } from "react-helmet";
+
+import App from "../components/App";
+import Gallery from "../components/Gallery";
 
 import "../assets/css/Release.css";
 
@@ -63,6 +65,14 @@ const Rapture = ({ t }) =>
 {
     return (
         <App>
+            <Helmet>
+                <meta property="og:description" content="Rapture é o segundo álbum da banda mineira Pathos, lançado no dia 20 de Março de 2019." />
+                <meta property="og:image" content="http://pathos.band/image/rapture.png" />
+                <meta property="og:title" content="Rapture" />
+                <meta property="og:type" content="music.album" />
+                <meta property="og:url" content="http://pathos.band/rapture" />
+            </Helmet>
+
             <div className="Release">
                 <div className="Release-cover">
                     <Gallery photos={ artwork } direction={ "column" } />

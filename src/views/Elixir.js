@@ -7,6 +7,7 @@ import {
     Col,
     Row
 } from "reactstrap";
+import { Helmet } from "react-helmet";
 
 import "../assets/css/Release.css";
 
@@ -64,6 +65,14 @@ const Elixir = ({ t }) =>
 {
     return (
         <App>
+            <Helmet>
+                <meta property="og:description" content="Elixir é o primeiro álbum da banda mineira Pathos, lançado no dia 5 de Agosto de 2015." />
+                <meta property="og:image" content="http://pathos.band/image/rapture.png" />
+                <meta property="og:title" content="Elixir" />
+                <meta property="og:type" content="music.album" />
+                <meta property="og:url" content="http://pathos.band/elixir" />
+            </Helmet>
+
             <div className="Release">
                 <div className="Release-cover">
                     <Gallery photos={ artwork } direction={ "column" } />

@@ -8,6 +8,7 @@ import {
     Col,
     Row
 } from "reactstrap";
+import { Helmet } from "react-helmet";
 
 import "../assets/css/Home.css";
 
@@ -37,6 +38,14 @@ const Home = ({ t }) =>
 {
     return (
         <App>
+            <Helmet>
+                <meta property="og:description" content="Pathos é uma banda de Minas Gerais, Brasil." />
+                <meta property="og:image" content="http://pathos.band/image/rapture.png" />
+                <meta property="og:title" content="Pathos" />
+                <meta property="og:type" content="music.musician" />
+                <meta property="og:url" content="http://pathos.band/" />
+            </Helmet>
+
             <div className="Home">
                 <Container>
                     <Row>
