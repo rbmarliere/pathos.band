@@ -41,10 +41,10 @@ import p17 from "../assets/image/elixir/17.png";
 import p18 from "../assets/image/elixir/18.png";
 const artwork = [{ src: p1, width: 1, height: 1 }];
 const photos = [
-    { src: p2, width: 12, height: 11 },
-    { src: p1, width: 12, height: 11 },
-    { src: p3, width: 12, height: 11 },
-    { src: p4, width: 12, height: 11 },
+    { src: p2, width: 12, height: 12 },
+    { src: p1, width: 12, height: 12 },
+    { src: p3, width: 12, height: 12 },
+    { src: p4, width: 12, height: 12 },
     { src: p5, width: 12, height: 11 },
     { src: p6, width: 12, height: 9 },
     { src: p7, width: 9, height: 12 },

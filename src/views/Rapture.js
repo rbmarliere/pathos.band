@@ -41,7 +41,7 @@ import p17 from "../assets/image/rapture/17.png";
 import p18 from "../assets/image/rapture/18.png";
 const artwork = [{ src: p1, width: 1, height: 1 }];
 const photos = [
-    { src: p1, width: 12, height: 11 },
+    { src: p1, width: 12, height: 12 },
     { src: p2, width: 12, height: 9 },
     { src: p3, width: 12, height: 9 },
     { src: p4, width: 14, height: 11 },
