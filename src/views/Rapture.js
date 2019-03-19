@@ -67,10 +67,10 @@ const Rapture = ({ t }) =>
         <App>
             <Helmet>
                 <meta property="og:description" content="Rapture é o segundo álbum da banda mineira Pathos, lançado no dia 20 de Março de 2019." />
-                <meta property="og:image" content={ process.env.PUBLIC_URL + "/image/rapture.png" } />
+                <meta property="og:image" content="http://kind-elion-04c521.netlify.com/image/rapture.png" />
                 <meta property="og:title" content="Rapture" />
                 <meta property="og:type" content="music.album" />
-                <meta property="og:url" content={ process.env.PUBLIC_URL + "/rapture" } />
+                <meta property="og:url" content="http://kind-elion-04c521.netlify.com/rapture" />
             </Helmet>
 
             <div className="Release">

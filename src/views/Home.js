@@ -40,10 +40,10 @@ const Home = ({ t }) =>
         <App>
             <Helmet>
                 <meta property="og:description" content="Pathos é uma banda de Minas Gerais, Brasil." />
-                <meta property="og:image" content={ process.env.PUBLIC_URL + "/image/rapture.png" } />
+                <meta property="og:image" content="http://kind-elion-04c521.netlify.com/image/rapture.png" />
                 <meta property="og:title" content="Pathos" />
                 <meta property="og:type" content="music.musician" />
-                <meta property="og:url" content={ process.env.PUBLIC_URL } />
+                <meta property="og:url" content="http://kind-elion-04c521.netlify.com/" />
             </Helmet>
 
             <div className="Home">
