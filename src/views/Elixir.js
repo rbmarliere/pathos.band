@@ -123,11 +123,9 @@ const Elixir = ({ t }) =>
                 <Sequel/>
 
                 &nbsp;
-
-                <hr/>
                 <Gallery photos={ photos } />
+                &nbsp;
 
-                <hr/>
                 <Row>
                     <Col md="3"/>
                     <Col md="6" className="Release-just Release-quote">

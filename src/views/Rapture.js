@@ -121,9 +121,8 @@ const Rapture = ({ t }) =>
                 <EOS/>
 
                 &nbsp;
-
-                <hr/>
                 <Gallery photos={ photos } />
+                &nbsp;
 
             </div>
         </App>
