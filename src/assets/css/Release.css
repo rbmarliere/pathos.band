@@ -10,17 +10,14 @@
 .Release-title {
     text-align: center;
     font-family: "PunkRocker";
-    font-size: 6em;
 }
 
 .Release-track-title {
     text-align: center;
     font-family: "PunkRocker";
-    font-size: 3.5em;
 }
 
 .Release-credits {
-    font-size: 1.1em;
     text-align: center;
     font-family: "Courier New";
     letter-spacing: -1px;
@@ -53,7 +50,6 @@
 
 .Release-track-credits {
     font-family: monospace;
-    font-size: 0.8em;
     font-weight: bold;
     letter-spacing: -0.5px;
     line-height: 1em;
@@ -63,7 +59,6 @@
 
 .Release-quote {
     font-family: "Quote";
-    font-size: 1em;
     letter-spacing: -0.7px;
     line-height: 1.1em;
 }
@@ -71,7 +66,6 @@
 .Release-cartel {
     text-align: center;
     font-family: "BuyMore";
-    font-size: 2em;
 }
 
 .Release-eos-trees {
@@ -80,7 +74,6 @@
 
 .Release-coniunctio {
     letter-spacing: -1px;
-    font-size: 3em;
     font-family: "Ancient";
 }
 
@@ -88,5 +81,58 @@
     font-family: "Times New Roman";
     letter-spacing: -0.5px;
     line-height: 1em;
+}
+
+@media (max-width: 764px) {
+    .Release-title {
+        font-size: 6em;
+    }
+    .Release-track-title {
+        font-size: 3.5em;
+    }
+    .Release-credits {
+        font-size: 1em;
+    }
+    .Release-track-credits {
+        font-size: 0.8em;
+    }
+    .Release-quote {
+        font-size: 1em;
+    }
+    .Release-cartel {
+        font-size: 2em;
+    }
+    .Release-coniunctio {
+        font-size: 3em;
+    }
+    .Release-lyric {
+        font-size: 1em;
+    }
+}
+@media (min-width: 765px) {
+    .Release-title {
+        font-size: 8em;
+    }
+    .Release-track-title {
+        font-size: 4.5em;
+    }
+    .Release-credits {
+        font-size: 1.1em;
+    }
+    .Release-track-credits {
+        font-size: 1em;
+    }
+    .Release-quote {
+        font-size: 1em;
+    }
+    .Release-cartel {
+        font-size: 2.5em;
+    }
+    .Release-coniunctio {
+        font-size: 3.5em;
+    }
+    .Release-lyric {
+        font-size: 1.2em;
+    }
 }
 
