@@ -52,7 +52,7 @@ class NavBar extends Component
                     <Collapse navbar isOpen={ this.state.isOpen } onEntered={ () => { this.props.onToggle(); } } onExited={ () => { this.props.onToggle(); } }>
                         <Nav className="ml-auto" navbar>
 
-                            <UncontrolledDropdown nav inNavbar className="NavBar-link">
+                            {/*<UncontrolledDropdown nav inNavbar className="NavBar-link">
                                 <DropdownToggle nav caret>
                                     { this.props.t("nav1") }
                                 </DropdownToggle>
@@ -79,20 +79,39 @@ class NavBar extends Component
                                     </Link>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
+                            */}
 
                             <NavItem>
+                                <Link to="/rapture" className="NavBar-link">
+                                    <DropdownItem className="nav-link NavBar-dropdown-btn">
+                                        <div className="NavBar-img">
+                                            <img src={ rapture } alt="" />
+                                                &nbsp;
+                                                Rapture, 2019
+                                        </div>
+                                    </DropdownItem>
+                                </Link>
                             </NavItem>
 
                             <NavItem>
+                                <Link to="/elixir" className="NavBar-link">
+                                    <DropdownItem className="NavBar-dropdown-btn nav-link">
+                                        <div className="NavBar-img">
+                                            <img src={ elixir } alt="" />
+                                                &nbsp;
+                                                Elixir, 2015
+                                        </div>
+                                    </DropdownItem>
+                                </Link>
                             </NavItem>
 
                             {/*<NavItem>
                                 <Link className="NavBar-link nav-link" to="/biography"> { this.props.t("nav2") } </Link>
                             </NavItem>*/}
 
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
-                                    <FontAwesomeIcon icon={ ["fas", "language"] } size="1x"/>&nbsp;
+                            <UncontrolledDropdown className="NavBar-dropdown" nav inNavbar>
+                                <DropdownToggle className="NavBar-dropdown-toggle" nav caret>
+                                    <FontAwesomeIcon icon={ ["fas", "language"] } />&nbsp;
                                 </DropdownToggle>
 
                                 <DropdownMenu right className="NavBar-dropdown">
