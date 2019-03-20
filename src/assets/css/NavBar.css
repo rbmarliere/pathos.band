@@ -25,7 +25,7 @@
 
 .NavBar-link {
     font-family: monospace;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .NavBar-link:hover {
@@ -37,14 +37,6 @@
     border: 0;
     min-width: 3em;
     padding: 0;
-    padding-top: 0.7em;
-}
-
-.NavBar-dropdown-toggle {
-}
-
-.NavBar-dropdown-btn {
-    font-size: 0.7em;
 }
 
 .NavBar-dropdown-btn:hover {
@@ -64,5 +56,9 @@
 .NavBar-img > img {
     max-width: 48px;
     height: auto;
+}
+
+.NavBar-lang {
+    padding-top: 7px;
 }
 

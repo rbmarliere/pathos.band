@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { withTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import
 {
     Collapse,
@@ -10,9 +9,6 @@ import
     Navbar,
     NavbarToggler,
     NavItem,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
     DropdownItem
 } from "reactstrap";
 
@@ -28,13 +24,21 @@ class NavBar extends Component
     constructor(props)
     {
         super(props);
+        this.lang = this.lang.bind(this);
         this.toggle = this.toggle.bind(this);
-        this.state = { isOpen: false };
+        this.state = { isOpen: false, lang: "pt" };
     }
 
     toggle()
     {
         this.setState({ isOpen: !this.state.isOpen });
+    }
+
+    lang()
+    {
+        var newlang = this.state.lang === "pt" ? "en" : "pt";
+        this.props.i18n.changeLanguage(newlang);
+        this.setState({ lang: newlang });
     }
 
     render()
@@ -52,56 +56,21 @@ class NavBar extends Component
                     <Collapse navbar isOpen={ this.state.isOpen } onEntered={ () => { this.props.onToggle(); } } onExited={ () => { this.props.onToggle(); } }>
                         <Nav className="ml-auto" navbar>
 
-                            {/*<UncontrolledDropdown nav inNavbar className="NavBar-link">
-                                <DropdownToggle nav caret>
-                                    { this.props.t("nav1") }
-                                </DropdownToggle>
-
-                                <DropdownMenu right className="NavBar-dropdown">
-                                    <Link to="/rapture" className="NavBar-link">
-                                        <DropdownItem className="nav-link NavBar-dropdown-btn">
-                                            <div className="NavBar-img">
-                                                <img src={ rapture } alt="" />
-                                                &nbsp;
-                                                Rapture, 2019
-                                            </div>
-                                        </DropdownItem>
-                                    </Link>
-
-                                    <Link to="/elixir" className="NavBar-link">
-                                        <DropdownItem className="NavBar-dropdown-btn nav-link">
-                                            <div className="NavBar-img">
-                                                <img src={ elixir } alt="" />
-                                                &nbsp;
-                                                Elixir, 2015
-                                            </div>
-                                        </DropdownItem>
-                                    </Link>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
-                            */}
-
                             <NavItem>
-                                <Link to="/rapture" className="NavBar-link">
-                                    <DropdownItem className="nav-link NavBar-dropdown-btn">
-                                        <div className="NavBar-img">
-                                            <img src={ rapture } alt="" />
-                                                &nbsp;
-                                                Rapture, 2019
-                                        </div>
-                                    </DropdownItem>
+                                <Link to="/rapture" className="nav-link NavBar-link">
+                                    <div className="NavBar-img">
+                                        <img src={ rapture } alt="" />
+                                        &nbsp; Rapture, 2019 &nbsp;
+                                    </div>
                                 </Link>
                             </NavItem>
 
                             <NavItem>
-                                <Link to="/elixir" className="NavBar-link">
-                                    <DropdownItem className="NavBar-dropdown-btn nav-link">
-                                        <div className="NavBar-img">
-                                            <img src={ elixir } alt="" />
-                                                &nbsp;
-                                                Elixir, 2015
-                                        </div>
-                                    </DropdownItem>
+                                <Link to="/rapture" className="nav-link NavBar-link">
+                                    <div className="NavBar-img">
+                                        <img src={ elixir } alt="" />
+                                        &nbsp; Elixir, 2015 &nbsp;
+                                    </div>
                                 </Link>
                             </NavItem>
 
@@ -109,25 +78,9 @@ class NavBar extends Component
                                 <Link className="NavBar-link nav-link" to="/biography"> { this.props.t("nav2") } </Link>
                             </NavItem>*/}
 
-                            <UncontrolledDropdown className="NavBar-dropdown" nav inNavbar>
-                                <DropdownToggle className="NavBar-dropdown-toggle" nav caret>
-                                    <FontAwesomeIcon icon={ ["fas", "language"] } />&nbsp;
-                                </DropdownToggle>
-
-                                <DropdownMenu right className="NavBar-dropdown">
-                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } } className="NavBar-dropdown-btn-lang">
-                                        <div className="NavBar-img">
-                                            <img src={ BR } alt="" />
-                                        </div>
-                                    </DropdownItem>
-
-                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } } className="NavBar-dropdown-btn-lang">
-                                        <div className="NavBar-img">
-                                            <img src={ US } alt="" />
-                                        </div>
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+                            <div className="NavBar-img NavBar-lang" onClick={ this.lang } >
+                                <img src={ this.state.lang === "pt" ? BR : US } alt="" />
+                            </div>
 
                         </Nav>
                     </Collapse>
