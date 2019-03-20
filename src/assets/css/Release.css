@@ -33,7 +33,14 @@
 .Release-bcplayer {
     border: 0;
     width: 100%;
+}
+
+.Release-bcplayer-elixir {
     height: 373px;
+}
+
+.Release-bcplayer-rapture {
+    height: 340px;
 }
 
 .Release-just {

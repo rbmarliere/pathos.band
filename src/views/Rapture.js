@@ -101,6 +101,10 @@ const Rapture = ({ t }) =>
                         { t("rap10") } <br/>
                         <br/>
                         { t("rap11") } <br/>
+                        <br/>
+                        <div className="Release-player">
+                            <iframe title="Rapture" className="Release-bcplayer Release-bcplayer-rapture" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
+                        </div>
                     </Col>
                 </Row>
 
