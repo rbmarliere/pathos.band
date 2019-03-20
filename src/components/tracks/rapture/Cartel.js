@@ -23,7 +23,7 @@ const Cartel = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col xs="7" className="Release-left Release-lyric">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
                     <div className="Release-quote">
                         &quot;Now a federated, decentralized system of free associations, incorporating economic as well as social institutions, would be what I refer to as anarcho-syndicalism and it seems to me that it is the appropriate form of social organization for an advanced technological society in which human beings do not have to be forced into a position of tools, of cogs in a machine; in which the creative urge, that I think is intrinsic to human nature, will in fact be able to realize itself in whatever way it will, I don’t know all the ways in which it will.&quot;
                         <br/><a target="_tab" href="https://youtu.be/vq9irdLcZmU?t=265">Noam Chomsky</a>
@@ -48,7 +48,7 @@ const Cartel = ({ t }) =>
                     <br/>Store of value, loss denied
                 </Col>
 
-                <Col xs="5" className="Release-right">
+                <Col md="5" className="Release-left">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho

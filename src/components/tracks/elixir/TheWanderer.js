@@ -23,7 +23,24 @@ const TheWanderer = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left Release-lyric">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
+                    <div className="Release-track-credits">
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Herman Faulstich { t("and") } Ricardo Marlière
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("piano") } Arthur Damásio
+                        <br/>{ t("back") } Hugo Moutinho
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("org") } Arthur Damásio
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
+                </Col>
+
+                <Col md="5" className="Release-left">
                     He is no doubt a man
                     <br/>But to another realm he belongs
                     <br/>From a cold distant mountain he comes
@@ -46,23 +63,6 @@ const TheWanderer = ({ t }) =>
                     <br/>Blessed in the fire of battle
                     <br/>Whose scarlet soaked wire
                     <br/>Makes him a restless servant of death
-                </Col>
-
-                <Col className="Release-right">
-                    <div className="Release-track-credits">
-                        { t("bx") } Lucas Guida
-                        <br/>{ t("batera") } Hugo Moutinho
-                        <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } Herman Faulstich { t("and") } Ricardo Marlière
-                        <br/>{ t("perc") } Gustavo Campos
-                        <br/>{ t("piano") } Arthur Damásio
-                        <br/>{ t("back") } Hugo Moutinho
-                        <br/>{ t("vox") } JP Vieira
-                        <br/>{ t("org") } Arthur Damásio
-                    </div>
-
-                    <div className="Release-quote">
-                    </div>
                 </Col>
 
             </Row>

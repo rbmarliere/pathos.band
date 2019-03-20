@@ -23,7 +23,17 @@ const Sequel = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
+                <Col md="5" xs="12" className="Release-right">
+                    As desolation rips the land apart
+                    <br/>and the air is filled with sorrow
+                    <br/>He fits the entire universe as one
+                    <br/>Finding joy in his suffering
+                    <br/>Standing right by the gates
+                    <br/>of the most glorious and ancient city
+                    <br/>There goes Nobody
+                </Col>
+
+                <Col md="7" className="Release-left Release-lyric">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho
@@ -36,16 +46,6 @@ const Sequel = ({ t }) =>
 
                     <div className="Release-quote">
                     </div>
-                </Col>
-
-                <Col className="Release-right Release-lyric">
-                    As desolation rips the land apart
-                    <br/>and the air is filled with sorrow
-                    <br/>He fits the entire universe as one
-                    <br/>Finding joy in his suffering
-                    <br/>Standing right by the gates
-                    <br/>of the most glorious and ancient city
-                    <br/>There goes Nobody
                 </Col>
 
             </Row>

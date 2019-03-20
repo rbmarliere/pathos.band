@@ -23,7 +23,7 @@ const Coniunctio = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col xs="5" className="Release-left">
+                <Col md="5" xs="12" className="Release-right">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho
@@ -40,7 +40,7 @@ const Coniunctio = ({ t }) =>
                     </div>
                 </Col>
 
-                <Col xs="7" className="Release-right Release-lyric">
+                <Col md="7" className="Release-left Release-lyric">
                     Sou
                     <br/>Erupção
                     <br/>Sou o magma e o vulcão

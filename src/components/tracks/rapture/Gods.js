@@ -23,7 +23,7 @@ const Gods = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col xs="7" className="Release-left Release-lyric">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
                     Our dreams are solid as rock
                     <br/>Even though they look like foolish ones
                     <br/>Look into my eyes and see
@@ -50,7 +50,7 @@ const Gods = ({ t }) =>
                     <br/>and I don&apos;t dream with gods
                 </Col>
 
-                <Col xs="5" className="Release-right">
+                <Col md="5" className="Release-left">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho

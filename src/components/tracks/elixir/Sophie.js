@@ -23,25 +23,7 @@ const Sophie = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
-                    <div className="Release-track-credits">
-                        { t("bx") } Lucas Guida
-                        <br/>{ t("batera") } Hugo Moutinho
-                        <br/>{ t("fla") } Gabriel Vaz Duque
-                        <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } JP Vieira { t("and") } Ricardo Marlière
-                        <br/>{ t("perc") } Gustavo Campos
-                        <br/>{ t("v12") } Ricardo Marlière
-                        <br/>{ t("back") } Hugo Moutinho
-                        <br/>{ t("vox") } JP Vieira
-                        <br/>{ t("org") } Arthur Damásio
-                    </div>
-
-                    <div className="Release-quote">
-                    </div>
-                </Col>
-
-                <Col className="Release-right Release-lyric">
+                <Col md="5" xs="12" className="Release-right">
                     The fear was blinding his eyes
                     <br/>A mist he was seeing
                     <br/>In a swamp of lies
@@ -63,6 +45,24 @@ const Sophie = ({ t }) =>
                     <br/>The horns in your head are there to guide the dead
                     <br/>See happiness in doom, the dark is good to you
                     <br/>Remember who you are, child of the Silver Star
+                </Col>
+
+                <Col md="7" className="Release-left Release-lyric">
+                    <div className="Release-track-credits">
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("fla") } Gabriel Vaz Duque
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } JP Vieira { t("and") } Ricardo Marlière
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("v12") } Ricardo Marlière
+                        <br/>{ t("back") } Hugo Moutinho
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("org") } Arthur Damásio
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
             </Row>
         </div>

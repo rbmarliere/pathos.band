@@ -23,7 +23,7 @@ const Eve = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col xs="5" className="Release-left">
+                <Col md="5" xs="12" className="Release-right">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho
@@ -43,7 +43,7 @@ const Eve = ({ t }) =>
                     </div>
                 </Col>
 
-                <Col xs="7" className="Release-right Release-lyric">
+                <Col md="7" className="Release-left Release-lyric">
                     Eve is weeping in morning gloss
                     <br/>Searching for feelings or stones to toss
                     <br/>The treetop doesn&apos;t let she see the sky light

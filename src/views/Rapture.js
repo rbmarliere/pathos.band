@@ -79,13 +79,10 @@ const Rapture = ({ t }) =>
                     <Gallery photos={ artwork } direction={ "column" } />
                 </div>
 
-                &nbsp;
-
                 <div className="Release-title">
                     RAPTURE
                 </div>
 
-                <hr/>
                 <Row>
                     <Col className="Release-credits">
                         { t("rap1") } <br/>
@@ -107,22 +104,22 @@ const Rapture = ({ t }) =>
                     </Col>
                 </Row>
 
-                <hr/>
+                <br/><hr/>
                 <RaptureTrack/>
-                <hr/>
+                <br/><hr/>
                 <Coniunctio/>
-                <hr/>
+                <br/><hr/>
                 <Cartel/>
-                <hr/>
+                <br/><hr/>
                 <Eve/>
-                <hr/>
+                <br/><hr/>
                 <Gods/>
-                <hr/>
+                <br/><hr/>
                 <EOS/>
 
-                &nbsp;
+                <br/><br/>
                 <Gallery photos={ photos } />
-                &nbsp;
+                <br/>
 
             </div>
         </App>

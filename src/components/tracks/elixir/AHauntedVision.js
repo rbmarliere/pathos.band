@@ -23,7 +23,22 @@ const AHauntedVision = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left Release-lyric">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
+                    <div className="Release-track-credits">
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } JP Vieira
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("rhodes") } Arthur Damásio
+                        <br/>{ t("vox") } JP Vieira
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
+                </Col>
+
+                <Col md="5" className="Release-left">
                     Do you wanna climb a long stair?
                     <br/>Glory and fame it&apos;s up there
                     <br/>Step by step you&apos;ll have to go
@@ -43,21 +58,6 @@ const AHauntedVision = ({ t }) =>
                     <br/>As soon as you leave, you&apos;ll arrive
                     <br/>Tell goodbye to your family and friends
                     <br/>Maybe you won&apos;t see them never again
-                </Col>
-
-                <Col className="Release-right">
-                    <div className="Release-track-credits">
-                        { t("bx") } Lucas Guida
-                        <br/>{ t("batera") } Hugo Moutinho
-                        <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } JP Vieira
-                        <br/>{ t("perc") } Gustavo Campos
-                        <br/>{ t("rhodes") } Arthur Damásio
-                        <br/>{ t("vox") } JP Vieira
-                    </div>
-
-                    <div className="Release-quote">
-                    </div>
                 </Col>
 
             </Row>

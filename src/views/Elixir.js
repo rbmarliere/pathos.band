@@ -79,13 +79,10 @@ const Elixir = ({ t }) =>
                     <Gallery photos={ artwork } direction={ "column" } />
                 </div>
 
-                &nbsp;
-
                 <div className="Release-title">
                     ELIXIR
                 </div>
 
-                <hr/>
                 <Row>
                     <Col className="Release-credits">
                         { t("elx1") } <br/>
@@ -107,24 +104,24 @@ const Elixir = ({ t }) =>
                     </Col>
                 </Row>
 
-                <hr/>
+                <br/><hr/>
                 <Portal/>
-                <hr/>
+                <br/><hr/>
                 <AHauntedVision/>
-                <hr/>
+                <br/><hr/>
                 <Sophie/>
-                <hr/>
+                <br/><hr/>
                 <TheGod/>
-                <hr/>
+                <br/><hr/>
                 <Ankh/>
-                <hr/>
+                <br/><hr/>
                 <TheWanderer/>
-                <hr/>
+                <br/><hr/>
                 <Sequel/>
 
-                &nbsp;
+                <br/><br/>
                 <Gallery photos={ photos } />
-                &nbsp;
+                <br/>
 
                 <Row>
                     <Col md="3"/>

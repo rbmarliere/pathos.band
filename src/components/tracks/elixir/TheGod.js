@@ -23,7 +23,23 @@ const TheGod = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left Release-lyric">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
+                    <div className="Release-track-credits">
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Ricardo Marlière
+                        <br/>{ t("perc") } Gustavo Campos
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("back") } Hugo Moutinho
+                        <br/>{ t("synth") } Arthur Damásio
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
+                </Col>
+
+                <Col md="5" className="Release-left">
                     <i>Act I – The Father</i>
                     <br/>So you are about to be born
                     <br/>My son, this shall be all yours one day
@@ -47,22 +63,6 @@ const TheGod = ({ t }) =>
                     <br/>What does he got in his pocket?
                     <br/>He looks so familiar
                     <br/>You know, he could be me
-                </Col>
-
-                <Col className="Release-right">
-                    <div className="Release-track-credits">
-                        { t("bx") } Lucas Guida
-                        <br/>{ t("batera") } Hugo Moutinho
-                        <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } Ricardo Marlière
-                        <br/>{ t("perc") } Gustavo Campos
-                        <br/>{ t("vox") } JP Vieira
-                        <br/>{ t("back") } Hugo Moutinho
-                        <br/>{ t("synth") } Arthur Damásio
-                    </div>
-
-                    <div className="Release-quote">
-                    </div>
                 </Col>
 
             </Row>

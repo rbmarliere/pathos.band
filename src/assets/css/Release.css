@@ -44,13 +44,11 @@
 }
 
 .Release-left {
-    text-align: right;
-    padding: 3px;
+    text-align: left;
 }
 
 .Release-right {
-    text-align: left;
-    padding: 3px;
+    text-align: right;
 }
 
 .Release-track-credits {

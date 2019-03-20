@@ -23,22 +23,7 @@ const Ankh = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col className="Release-left">
-                    <div className="Release-track-credits">
-                        { t("bx") } Lucas Guida
-                        <br/>{ t("batera") } Hugo Moutinho
-                        <br/>{ t("gtr") } Ricardo Marlière
-                        <br/>{ t("txt") } Ricardo Marlière
-                        <br/>{ t("mello") } Arthur Damásio
-                        <br/>{ t("vox") } JP Vieira
-                        <br/>{ t("back") } Hugo Moutinho
-                    </div>
-
-                    <div className="Release-quote">
-                    </div>
-                </Col>
-
-                <Col className="Release-right Release-lyric">
+                <Col md="5" xs="12" className="Release-right">
                     In this world I was born
                     <br/>Spitted in fire
                     <br/>Through my birth in death
@@ -82,6 +67,21 @@ const Ankh = ({ t }) =>
                     <br/>Try to keep on living
                     <br/>There is no other way
                     <br/>Keep on loving
+                </Col>
+
+                <Col md="7" className="Release-left Release-lyric">
+                    <div className="Release-track-credits">
+                        { t("bx") } Lucas Guida
+                        <br/>{ t("batera") } Hugo Moutinho
+                        <br/>{ t("gtr") } Ricardo Marlière
+                        <br/>{ t("txt") } Ricardo Marlière
+                        <br/>{ t("mello") } Arthur Damásio
+                        <br/>{ t("vox") } JP Vieira
+                        <br/>{ t("back") } Hugo Moutinho
+                    </div>
+
+                    <div className="Release-quote">
+                    </div>
                 </Col>
 
             </Row>

@@ -23,7 +23,7 @@ const Rapture = ({ t }) =>
             &nbsp;
 
             <Row>
-                <Col xs="7" className="Release-left Release-lyric">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
                     Feeling the breeze purging all your beliefs
                     <br/>I’m glad to see you finally turned off that screen
                     <br/>Now let me tell you gotta move on or freeze
@@ -71,7 +71,7 @@ const Rapture = ({ t }) =>
                     <br/>Still, I don’t sink!
                 </Col>
 
-                <Col xs="5" className="Release-right">
+                <Col md="5" className="Release-left">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho
