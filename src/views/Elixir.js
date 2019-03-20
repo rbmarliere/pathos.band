@@ -68,10 +68,10 @@ const Elixir = ({ t }) =>
             <Helmet>
                 <title>Elixir</title>
                 <meta property="og:description" content="Elixir é o primeiro álbum da banda mineira Pathos, lançado no dia 6 de Agosto de 2015." />
-                <meta property="og:image" content="http://kind-elion-04c521.netlify.com/image/elixir.jpg" />
+                <meta property="og:image" content="http://pathos.band/image/elixir.jpg" />
                 <meta property="og:title" content="Elixir" />
                 <meta property="og:type" content="music.album" />
-                <meta property="og:url" content="http://kind-elion-04c521.netlify.com/elixir" />
+                <meta property="og:url" content="http://pathos.band/elixir" />
             </Helmet>
 
             <div className="Release">
