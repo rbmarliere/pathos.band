@@ -65,7 +65,7 @@ class NavBar extends Component
                             </NavItem>
 
                             <NavItem>
-                                <Link to="/rapture" className="nav-link NavBar-link">
+                                <Link to="/elixir" className="nav-link NavBar-link">
                                     <div className="NavBar-img">
                                         <img src={ elixir } alt="" />
                                         &nbsp; Elixir, 2015 &nbsp;
