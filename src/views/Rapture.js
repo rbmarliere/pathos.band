@@ -56,7 +56,7 @@ const photos = [
     { src: p13, width: 12, height: 10 },
     { src: p14, width: 12, height: 9 },
     { src: p15, width: 9, height: 12 },
-    { src: p16, width: 14, height: 12 },
+    { src: p16, width: 13, height: 12 },
     { src: p17, width: 12, height: 9 },
     { src: p18, width: 15, height: 9 }
 ];
