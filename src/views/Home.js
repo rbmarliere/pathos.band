@@ -45,6 +45,7 @@ const Home = ({ t }) =>
                 <meta property="og:title" content="Pathos" />
                 <meta property="og:type" content="music.musician" />
                 <meta property="og:url" content="http://pathos.band/" />
+                <link rel="canonical" href="http://pathos.band/" />
             </Helmet>
 
             <div className="Home">

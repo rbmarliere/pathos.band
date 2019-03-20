@@ -72,6 +72,7 @@ const Elixir = ({ t }) =>
                 <meta property="og:title" content="Elixir" />
                 <meta property="og:type" content="music.album" />
                 <meta property="og:url" content="http://pathos.band/elixir" />
+                <link rel="canonical" href="http://pathos.band/elixir" />
             </Helmet>
 
             <div className="Release">

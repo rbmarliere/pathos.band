@@ -16,6 +16,7 @@ const Biography = ({ t }) =>
                 <meta property="og:title" content="Pathos" />
                 <meta property="og:type" content="music.musician" />
                 <meta property="og:url" content="http://pathos.band/biography" />
+                <link rel="canonical" href="http://pathos.band/biography" />
             </Helmet>
 
             <div className="Biography">

@@ -72,6 +72,7 @@ const Rapture = ({ t }) =>
                 <meta property="og:title" content="Rapture" />
                 <meta property="og:type" content="music.album" />
                 <meta property="og:url" content="http://pathos.band/rapture" />
+                <link rel="canonical" href="http://pathos.band/rapture" />
             </Helmet>
 
             <div className="Release">
