@@ -14,16 +14,8 @@ const Sophie = ({ t }) =>
                 Sophie
             </div>
 
-            &nbsp;
-
-            <div className="Release-player">
-                <iframe title="Sophie" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3413870151/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
-            </div>
-
-            &nbsp;
-
             <Row>
-                <Col md="5" xs="12" className="Release-right">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
                     The fear was blinding his eyes
                     <br/>A mist he was seeing
                     <br/>In a swamp of lies
@@ -47,7 +39,7 @@ const Sophie = ({ t }) =>
                     <br/>Remember who you are, child of the Silver Star
                 </Col>
 
-                <Col md="7" className="Release-left Release-lyric">
+                <Col md="5" className="Release-left">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho

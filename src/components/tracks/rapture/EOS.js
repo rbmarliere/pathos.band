@@ -16,14 +16,6 @@ const EOS = ({ t }) =>
                 <span className="Release-eos-trees"> c </span>
             </div>
 
-            &nbsp;
-
-            <div className="Release-player">
-                <iframe title="EOS" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=338242932/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
-            </div>
-
-            &nbsp;
-
             <Row>
                 <Col md="5" xs="12" className="Release-right">
                     <div className="Release-track-credits">

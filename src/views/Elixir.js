@@ -101,6 +101,12 @@ const Elixir = ({ t }) =>
                         { t("elx10") } <br/>
                         <br/>
                         { t("elx11") } <br/>
+
+                        <br/>
+
+                        <div className="Release-player">
+                            <iframe title="Elixir" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
+                        </div>
                     </Col>
                 </Row>
 

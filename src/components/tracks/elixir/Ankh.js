@@ -14,16 +14,8 @@ const Ankh = ({ t }) =>
                 Ankh
             </div>
 
-            &nbsp;
-
-            <div className="Release-player">
-                <iframe title="Ankh" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=3764892873/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
-            </div>
-
-            &nbsp;
-
             <Row>
-                <Col md="5" xs="12" className="Release-right">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
                     In this world I was born
                     <br/>Spitted in fire
                     <br/>Through my birth in death
@@ -69,7 +61,7 @@ const Ankh = ({ t }) =>
                     <br/>Keep on loving
                 </Col>
 
-                <Col md="7" className="Release-left Release-lyric">
+                <Col md="5" className="Release-left">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho

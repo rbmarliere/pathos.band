@@ -14,14 +14,6 @@ const Gods = ({ t }) =>
                 I Don&apos;t Dream With Gods
             </div>
 
-            &nbsp;
-
-            <div className="Release-player">
-                <iframe title="Gods" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1045522155/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
-            </div>
-
-            &nbsp;
-
             <Row>
                 <Col md="7" xs="12" className="Release-right Release-lyric">
                     Our dreams are solid as rock

@@ -14,16 +14,8 @@ const Sequel = ({ t }) =>
                 Sequel
             </div>
 
-            &nbsp;
-
-            <div className="Release-player">
-                <iframe title="Sequel" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=2950109927/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
-            </div>
-
-            &nbsp;
-
             <Row>
-                <Col md="5" xs="12" className="Release-right">
+                <Col md="7" xs="12" className="Release-right Release-lyric">
                     As desolation rips the land apart
                     <br/>and the air is filled with sorrow
                     <br/>He fits the entire universe as one
@@ -33,7 +25,7 @@ const Sequel = ({ t }) =>
                     <br/>There goes Nobody
                 </Col>
 
-                <Col md="7" className="Release-left Release-lyric">
+                <Col md="5" className="Release-left">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho

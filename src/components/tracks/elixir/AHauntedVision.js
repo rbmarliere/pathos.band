@@ -14,16 +14,8 @@ const AHauntedVision = ({ t }) =>
                 A Haunted Vision
             </div>
 
-            &nbsp;
-
-            <div className="Release-player">
-                <iframe title="A Haunted Vision" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=1092530120/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=1803528116/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/elixir">Elixir by Pathos</a></iframe>
-            </div>
-
-            &nbsp;
-
             <Row>
-                <Col md="7" xs="12" className="Release-right Release-lyric">
+                <Col md="5" xs="12" className="Release-right">
                     <div className="Release-track-credits">
                         { t("bx") } Lucas Guida
                         <br/>{ t("batera") } Hugo Moutinho
@@ -38,7 +30,7 @@ const AHauntedVision = ({ t }) =>
                     </div>
                 </Col>
 
-                <Col md="5" className="Release-left">
+                <Col md="7" className="Release-left Release-lyric">
                     Do you wanna climb a long stair?
                     <br/>Glory and fame it&apos;s up there
                     <br/>Step by step you&apos;ll have to go

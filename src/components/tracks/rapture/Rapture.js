@@ -14,14 +14,6 @@ const Rapture = ({ t }) =>
                 Rapture
             </div>
 
-            &nbsp;
-
-            <div className="Release-player">
-                <iframe title="Rapture" className="Release-bcplayer" src="https://bandcamp.com/EmbeddedPlayer/album=3314172135/size=small/bgcol=333333/linkcol=4ec5ec/artwork=none/track=112071643/transparent=true/" seamless><a target="_tab" href="http://pathos.bandcamp.com/album/rapture">Rapture by Pathos</a></iframe>
-            </div>
-
-            &nbsp;
-
             <Row>
                 <Col md="7" xs="12" className="Release-right Release-lyric">
                     Feeling the breeze purging all your beliefs

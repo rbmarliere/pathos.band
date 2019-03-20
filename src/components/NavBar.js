@@ -52,7 +52,7 @@ class NavBar extends Component
 
                     <NavbarToggler onClick={ this.toggle } />
 
-                    <Collapse navbar isOpen={ this.state.isOpen } onEntered={ () => { this.props.onToggle(); } } onExited={ () => { this.props.onToggle(); } }>
+                    <Collapse navbar isOpen={ this.state.isOpen }>
                         <Nav className="ml-auto" navbar>
 
                             <NavItem>
@@ -95,8 +95,7 @@ NavBar.propTypes =
     scroll: PropTypes.number.isRequired,
     navtop: PropTypes.number,
     t: PropTypes.func.isRequired,
-    i18n: PropTypes.object.isRequired,
-    onToggle: PropTypes.func.isRequired
+    i18n: PropTypes.object.isRequired
 };
 
 export default withTranslation()(NavBar);

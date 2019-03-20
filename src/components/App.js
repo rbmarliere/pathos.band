@@ -12,7 +12,6 @@ class App extends Component
         super(props);
         this.handleBannerLoaded = this.handleBannerLoaded.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
-        this.handleNavToggle = this.handleNavToggle.bind(this);
         this.state = { bannerLoaded: false, scroll: 0 };
     }
 
@@ -54,7 +53,7 @@ class App extends Component
         return (
             <div className="App">
                 <Banner onLoad={ this.handleBannerLoaded.bind(this) }/>
-                <NavBar scroll={ this.state.scroll } navtop={ this.state.navtop } onToggle={ this.handleNavToggle.bind(this) } />
+                <NavBar scroll={ this.state.scroll } navtop={ this.state.navtop } />
                 <div className="Content">
                     <Container>
                         { this.props.children }
