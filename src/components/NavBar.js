@@ -8,8 +8,7 @@ import
     Nav,
     Navbar,
     NavbarToggler,
-    NavItem,
-    DropdownItem
+    NavItem
 } from "reactstrap";
 
 import "../assets/css/NavBar.css";
