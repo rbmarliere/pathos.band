@@ -32,7 +32,7 @@ const Sequel = ({ t }) =>
                         <br/>{ t("gtr") } Ricardo Marlière
                         <br/>{ t("txt") } Ricardo Marlière
                         <br/>{ t("perc") } Gustavo Campos
-                        <br/>{ t("tromp") } Wanger Souza
+                        <br/>{ t("tromp") } Wagner Souza
                         <br/>{ t("vox") } JP Vieira
                     </div>
 
