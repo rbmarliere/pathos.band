@@ -38,8 +38,11 @@ const Ankh = ({ t }) =>
                     <br/>Show me where does it hide
                     <br/>I will strike with my sword
                     <br/>Shining with blood
-                    <br/>Since there is no god where I am
-                    <br/>Where am I?
+                    <div className="Release-quote">
+                        <br/>Since there is no god where I am
+                        <br/><a target="_tab" href="http://lib.oto-usa.org/libri/liber0031.html?num=28">AL</a>
+                    </div>
+                    Where am I?
                     <br/>
                     <br/>In a moment in eternity I saw a tear
                     <br/>Rolling down your face
