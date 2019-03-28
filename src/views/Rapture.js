@@ -126,6 +126,15 @@ const Rapture = ({ t }) =>
                 <Gallery photos={ photos } />
                 <br/>
 
+                <Row>
+                    <Col md="3"/>
+                    <Col md="6" className="Release-just Release-quote">
+                        &quot;{ t("fdj2") }&quot;
+                        <br/><a target="_tab" href="https://stonerking1.blogspot.com/2019/03/pathos-rapture-review.html">FDJ</a>
+                    </Col>
+                    <Col md="3"/>
+                </Row>
+
             </div>
         </App>
     );
