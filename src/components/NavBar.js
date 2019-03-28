@@ -23,9 +23,10 @@ class NavBar extends Component
     constructor(props)
     {
         super(props);
-        this.lang = this.lang.bind(this);
         this.toggle = this.toggle.bind(this);
-        this.state = { isOpen: false, lang: "pt" };
+        this.lang = this.lang.bind(this);
+        var lang = this.props.i18n.languages[0];
+        this.state = { isOpen: false, lang: lang };
     }
 
     toggle()
