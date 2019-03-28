@@ -12,6 +12,7 @@
     "i18next-browser-languagedetector": "^3.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-facebook-pixel": "^0.1.2",
     "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0",
     "react-i18next": "^10.5.1",

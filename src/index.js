@@ -50,6 +50,11 @@ import Rapture from "./views/Rapture";
 // locale
 import "./i18n";
 
+// pixel
+import ReactPixel from "react-facebook-pixel";
+ReactPixel.init("285041719061019", {}, { autoConfig: true, debug: false });
+ReactPixel.pageView();
+
 // render
 ReactDOM.render(
     <Router history={ history }>
