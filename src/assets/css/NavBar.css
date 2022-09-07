@@ -34,9 +34,10 @@
 
 .NavBar-dropdown {
     background-color: #171f2d;
-    border: 0;
     min-width: 3em;
-    padding: 0;
+}
+.NavBar-dropdown-toggle {
+    padding-top: 1.2em
 }
 
 .NavBar-dropdown-btn:hover {

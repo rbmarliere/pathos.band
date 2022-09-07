@@ -8,8 +8,13 @@ import
     Nav,
     Navbar,
     NavbarToggler,
-    NavItem
+    NavItem,
+    UncontrolledDropdown,
+    DropdownItem,
+    DropdownToggle,
+    DropdownMenu,
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "../assets/css/NavBar.css";
 
@@ -74,14 +79,28 @@ class NavBar extends Component
                                 </Link>
                             </NavItem>
 
-                            {/*<NavItem>
-                                <Link className="NavBar-link nav-link" to="/biography"> { this.props.t("nav2") } </Link>
-                            </NavItem>*/}
-
-                            <div className="NavBar-img NavBar-lang" onClick={ this.lang } >
+                            {/*<div className="NavBar-img NavBar-lang" onClick={ this.lang } >
                                 <img src={ this.state.lang === "en" ? BR : US } alt="" />
-                            </div>
+                            </div>*/}
+                            <UncontrolledDropdown className="NavBar-dropdown" nav inNavbar>
+                                <DropdownToggle className="NavBar-dropdown-toggle" nav caret>
+                                    <FontAwesomeIcon size="lg" icon={ ["fas", "language"] } />&nbsp;
+                                </DropdownToggle>
 
+                                <DropdownMenu right className="NavBar-dropdown">
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("pt"); } } className="NavBar-dropdown-btn-lang">
+                                        <div className="NavBar-img">
+                                            <img src={ BR } alt="" />
+                                        </div>
+                                    </DropdownItem>
+
+                                    <DropdownItem onClick={ () => { this.props.i18n.changeLanguage("en"); } } className="NavBar-dropdown-btn-lang">
+                                        <div className="NavBar-img">
+                                            <img src={ US } alt="" />
+                                        </div>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
                         </Nav>
                     </Collapse>
 
