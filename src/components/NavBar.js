@@ -79,7 +79,7 @@ class NavBar extends Component
                             </NavItem>*/}
 
                             <div className="NavBar-img NavBar-lang" onClick={ this.lang } >
-                                <img src={ this.state.lang === "pt" ? BR : US } alt="" />
+                                <img src={ this.state.lang === "en" ? BR : US } alt="" />
                             </div>
 
                         </Nav>
