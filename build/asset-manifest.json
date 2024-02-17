@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a7efd1c.css",
+    "main.js": "/static/js/main.8cc3e7ab.js",
+    "static/media/banner.png": "/static/media/banner.a8706408fe8174bc4d54.png",
+    "static/media/02.png": "/static/media/02.90fe1f518ff71c4f62e1.png",
+    "static/media/06.png": "/static/media/06.df25ec054c0fb54e4e5f.png",
+    "static/media/08.png": "/static/media/08.d8b645c4c3f61013e39b.png",
+    "static/media/12.png": "/static/media/12.89f980003c24e413fa4a.png",
+    "static/media/18.png": "/static/media/18.f15e3fa4fd5b70a88f69.png",
+    "static/media/04.png": "/static/media/04.3b6598aec7fbec8850f4.png",
+    "static/media/17.png": "/static/media/17.9453bc7e16a6e0806760.png",
+    "static/media/07.png": "/static/media/07.054170d8437d8b516aef.png",
+    "static/media/09.png": "/static/media/09.432ce6f8c1656c4ffbf9.png",
+    "static/media/03.png": "/static/media/03.dded7c14078ce3ba3903.png",
+    "static/media/15.png": "/static/media/15.40c4d85c020135d7da81.png",
+    "static/media/14.png": "/static/media/14.207b7bffddf1c8411524.png",
+    "static/media/11.png": "/static/media/11.8d62be1d0fc3a5a9b04a.png",
+    "static/media/05.png": "/static/media/05.9853559a8ee3d227319b.png",
+    "static/media/10.png": "/static/media/10.b49fafd81c88e5dbd16e.png",
+    "static/media/13.png": "/static/media/13.f22e909ba5718bce904a.png",
+    "static/media/01.jpg": "/static/media/01.66589714aeb07ef3505b.jpg",
+    "static/media/16.png": "/static/media/16.a000b7f81ba8ae68d72d.png",
+    "static/media/PunkRocker.otf": "/static/media/PunkRocker.f95ba37677a0205ac708.otf",
+    "static/media/01.png": "/static/media/01.65f1844e3574a3636e2c.png",
+    "static/media/Tattegrain3.woff": "/static/media/Tattegrain3.b2f51dab595e4db348af.woff",
+    "static/media/Trees.ttf": "/static/media/Trees.5462a3dac883a793b716.ttf",
+    "static/media/BuyMore.ttf": "/static/media/BuyMore.c13bb6c33b58f6b7d1d0.ttf",
+    "static/media/Ancient.ttf": "/static/media/Ancient.a59ed847ec519bfb87a7.ttf",
+    "static/media/Quote.ttf": "/static/media/Quote.170f42ea290ca0d4362d.ttf",
+    "index.html": "/index.html",
+    "main.7a7efd1c.css.map": "/static/css/main.7a7efd1c.css.map",
+    "main.8cc3e7ab.js.map": "/static/js/main.8cc3e7ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a7efd1c.css",
+    "static/js/main.8cc3e7ab.js"
+  ]
+}
